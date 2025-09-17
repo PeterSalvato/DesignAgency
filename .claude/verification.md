@@ -29,7 +29,7 @@ Responses must reference their department file:
 **database**: schema-architect, query-optimizer
 **content**: copywriter, brand-strategist
 **testing**: test-engineer, qa-automation
-**management**: project-coordinator, tech-lead
+**management**: project-coordinator, tech-lead, methodology-specialist
 **devops**: devops-engineer, monitoring-specialist, security-operations, platform-engineer
 **product**: product-manager, ux-researcher, data-analyst
 **ai-data**: ai-engineer, data-engineer

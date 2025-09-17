@@ -2,6 +2,8 @@
 
 **Import an entire AI development team into any Claude Code project.**
 
+The agency adapts to your existing project methodology by reading your `conventions.md` and `symbol-index.md` files to understand your specific standards, naming conventions, and architectural patterns.
+
 ## 🚀 Quick Start
 
 ```bash
@@ -10,7 +12,7 @@ git clone https://github.com/username/ai-dev-agency ./ai-agency
 cd ai-agency && npm run integrate
 ```
 
-Your project now has a complete AI development team with **26 focused specialists**:
+Your project now has a complete AI development team with **27 focused specialists**:
 - 🎨 **Design**: Visual reviewer, accessibility specialist
 - ⚛️ **Frontend**: React architect, performance engineer
 - 🔧 **Backend**: API architect, security engineer
@@ -18,7 +20,7 @@ Your project now has a complete AI development team with **26 focused specialist
 - 🗃️ **Database**: Schema architect, query optimizer
 - ✍️ **Content**: Copywriter, brand strategist
 - 🧪 **Testing**: Test engineer, QA automation
-- 👥 **Management**: Project coordinator, tech lead
+- 👥 **Management**: Project coordinator, tech lead, methodology specialist
 - 🚀 **DevOps**: DevOps engineer, monitoring specialist, security operations, platform engineer
 - 📊 **Product**: Product manager, UX researcher, data analyst
 - 🤖 **AI/Data**: AI engineer, data engineer
@@ -236,7 +238,28 @@ card, card-hover              /* Card layouts */
 
 - **Claude Code** installed and configured
 - **Node.js** 18+ for integration script
-- **Next.js project** (recommended) with Tailwind CSS
+- **Host project** with `conventions.md` and `symbol-index.md` files (recommended for optimal integration)
+
+## 🔗 Host Project Integration
+
+The AI Development Agency automatically adapts to your existing project through an intelligent methodology discovery workflow:
+
+### **Methodology Discovery Workflow**
+1. **Search for existing methodology**: Checks for `conventions.md` and `symbol-index.md` in root, docs/, .github/, etc.
+2. **Prompt for location**: If not found, asks user if methodology files exist elsewhere
+3. **Analyze and create**: If files don't exist, offers to analyze your project and create them
+4. **Adapt to standards**: All specialists use discovered/created methodology for project-aligned recommendations
+
+### **Quick Setup**
+```bash
+# Automatic methodology discovery and setup
+/setup-project-methodology
+
+# Force create new methodology from project analysis
+/setup-project-methodology --force-create
+```
+
+**Result**: All 27 specialists understand and follow your project's specific conventions, architectural patterns, and quality standards.
 
 ## 🔄 Keeping Updated
 

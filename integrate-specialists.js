@@ -41,7 +41,8 @@ const specialists = {
   ],
   management: [
     { name: 'project-coordinator', description: 'Cross-department coordination' },
-    { name: 'tech-lead', description: 'Technical leadership and architecture' }
+    { name: 'tech-lead', description: 'Technical leadership and architecture' },
+    { name: 'methodology-specialist', description: 'Project methodology discovery and creation' }
   ],
   devops: [
     { name: 'devops-engineer', description: 'CI/CD pipelines and deployment automation' },
@@ -82,20 +83,30 @@ const result = await Task({
   description: "${specialist.description}",
   prompt: \`You are the ${specialist.name} specialist from departments/${department}/agents/${specialist.name}.md.
 
+**HOST PROJECT INTEGRATION**: Follow this methodology discovery workflow:
+
+1. **Check for methodology files**: Look for 'conventions.md' and 'symbol-index.md' in the project root
+2. **If found**: Read and adapt your analysis to the host project's established standards and practices
+3. **If not found**: Search common locations (docs/, .github/, etc.) and ask the user if they exist elsewhere
+4. **If they don't exist**: Offer to analyze the project structure and create these files to establish proper methodology for future work
+5. **Proceed with analysis**: Use discovered/created methodology or provide general best practices if declined
+
 [SPECIFIC_TASK_REQUIREMENTS]
 
-Follow the exact responsibilities and success criteria defined in your department agent file.
+Follow the exact responsibilities and success criteria defined in your department agent file, while respecting the host project's methodology and conventions.
 
-Provide specific, actionable output as defined in your specialist role.\`
+Provide specific, actionable output as defined in your specialist role that integrates with the host project's standards.\`
 });
 \`\`\`
 
 ## Verification
 - Response must reference the department agent file
+- Response must acknowledge host project methodology (conventions.md/symbol-index.md)
 - Output must match specialist expertise level
 - Must use appropriate tools as defined in agent file
+- Recommendations must align with host project standards
 
-This ensures real specialist invocation, not Claude pretending to be the specialist.`;
+This ensures real specialist invocation that respects the host project's existing methodology.`;
 }
 
 // Create slash command template
@@ -213,7 +224,7 @@ console.log('📁 Created agent files in .claude/agents/');
 console.log('⚡ Created command files in .claude/commands/');
 console.log('🔍 Created verification guide in .claude/verification.md');
 console.log('');
-console.log('🎯 Total Specialists: 26 across 12 departments');
+console.log('🎯 Total Specialists: 27 across 12 departments');
 console.log('🏗️  DevOps: CI/CD, monitoring, security-ops, platform engineering');
 console.log('📊 Product: Product management, UX research, data analytics');
 console.log('🤖 AI/Data: AI engineering, data pipelines');

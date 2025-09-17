@@ -1,0 +1,50 @@
+{
+  "name": "design-agency-visual-development",
+  "version": "1.0.0",
+  "description": "Visual development workflow with Playwright MCP integration for exceptional UI design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "playwright test --config=config/playwright.config.ts",
+    "test:ui": "playwright test --config=config/playwright.config.ts --ui",
+    "visual-test": "playwright test --config=config/playwright.config.ts --project=visual-regression",
+    "accessibility-test": "playwright test --config=config/playwright.config.ts --project=accessibility"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.8.0",
+    "@playwright/test": "^1.40.0",
+    "autoprefixer": "^10.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "design",
+    "visual-development",
+    "playwright",
+    "accessibility",
+    "responsive-design",
+    "ai-assisted-design"
+  ],
+  "author": "Design Agency",
+  "license": "MIT"
+}

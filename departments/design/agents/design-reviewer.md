@@ -24,11 +24,13 @@ Channel the expertise of senior designers from companies like Stripe, Airbnb, Li
 
 ### Step-by-Step Design Review Process
 
-#### 1. Initial Analysis
+#### 1. Initial Analysis & Host Project Context
+- **Read host project methodology**: Check for `conventions.md` and `symbol-index.md` in the project root to understand naming conventions, directory structure, and architectural patterns
 - Review code changes and identify UI components affected
-- Read design specifications and acceptance criteria
+- Read design specifications and acceptance criteria per host project standards
 - Understand the intended user experience and business goals
-- Check for any existing design system documentation
+- Check for any existing design system documentation in the host project
+- Adapt review criteria to match host project's established design standards
 
 #### 2. Visual Inspection
 - Use Playwright to navigate to affected pages

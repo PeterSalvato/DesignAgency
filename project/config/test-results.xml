@@ -1,0 +1,1296 @@
+<testsuites id="" name="" tests="56" failures="56" skipped="0" errors="0" time="48.081540999999994">
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="chromium-desktop" tests="8" failures="8" skipped="0" time="0.041" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [chromium-desktop] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="firefox-desktop" tests="8" failures="8" skipped="0" time="0.041" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.004">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.004">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.007">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [firefox-desktop] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/firefox-1490/firefox/firefox
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="webkit-desktop" tests="8" failures="8" skipped="0" time="0.043" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [webkit-desktop] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="tablet-portrait" tests="8" failures="8" skipped="0" time="0.055" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.017">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.007">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [tablet-portrait] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="tablet-landscape" tests="8" failures="8" skipped="0" time="0.044" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.007">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [tablet-landscape] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="mobile-chrome" tests="8" failures="8" skipped="0" time="0.047" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.008">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.008">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [mobile-chrome] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libatk1.0-0t64\             ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="functionality-test.spec.ts" timestamp="2025-09-17T15:39:48.351Z" hostname="mobile-safari" tests="8" failures="8" skipped="0" time="0.043" errors="0">
+<testcase name="Design Agency Visual Development - Functionality Test › homepage loads successfully" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:5:7 homepage loads successfully" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:5:7 › Design Agency Visual Development - Functionality Test › homepage loads successfully 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › all main components render correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:15:7 all main components render correctly" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:15:7 › Design Agency Visual Development - Functionality Test › all main components render correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › navigation works correctly" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:42:7 navigation works correctly" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:42:7 › Design Agency Visual Development - Functionality Test › navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › buttons and interactive elements work" classname="functionality-test.spec.ts" time="0.007">
+<failure message="functionality-test.spec.ts:54:7 buttons and interactive elements work" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:54:7 › Design Agency Visual Development - Functionality Test › buttons and interactive elements work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › responsive design works at different viewports" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:72:7 responsive design works at different viewports" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:72:7 › Design Agency Visual Development - Functionality Test › responsive design works at different viewports 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › styling and design system work correctly" classname="functionality-test.spec.ts" time="0.005">
+<failure message="functionality-test.spec.ts:93:7 styling and design system work correctly" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:93:7 › Design Agency Visual Development - Functionality Test › styling and design system work correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › accessibility features work" classname="functionality-test.spec.ts" time="0.004">
+<failure message="functionality-test.spec.ts:119:7 accessibility features work" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:119:7 › Design Agency Visual Development - Functionality Test › accessibility features work 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Design Agency Visual Development - Functionality Test › performance is acceptable" classname="functionality-test.spec.ts" time="0.006">
+<failure message="functionality-test.spec.ts:140:7 performance is acceptable" type="FAILURE">
+<![CDATA[  [mobile-safari] › functionality-test.spec.ts:140:7 › Design Agency Visual Development - Functionality Test › performance is acceptable 
+
+    Error: browserType.launch: Executable doesn't exist at /home/codespace/.cache/ms-playwright/webkit-2203/pw_run.sh
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
