@@ -330,17 +330,18 @@ git pull origin main
 npm run integrate  # Re-apply latest changes
 ```
 
-## 🎯 Success Metrics
+## 🎯 What You Get
 
-After integration, your project will achieve:
-- **95%+ accessibility score** (automated WCAG testing)
-- **90+ Lighthouse performance** (frontend optimization)
-- **<200ms API response times** (backend optimization)
-- **Zero critical vulnerabilities** (security scanning)
-- **Design system compliance** (visual consistency)
-- **100% methodology accuracy** (automated documentation maintenance)
-- **Comprehensive system validation** (systematic audit framework)
-- **Lifecycle-aware quality assurance** (temporal consistency testing)
+After integration, you have access to:
+- **30 AI specialists** across 13 departments for comprehensive project coverage
+- **Technology-aware recommendations** from specialists who understand your specific stack
+- **Automated methodology discovery** that adapts to your project's existing conventions
+- **Systematic audit capabilities** to identify potential oversights before they become problems
+- **Real specialist invocation** via Task tool (not Claude pretending to be specialists)
+- **Parallel execution support** for faster multi-specialist reviews
+- **Modular expansion pack system** for perfect technology stack fit
+
+**Important**: These are AI assistants that provide recommendations and analysis. Actual results depend on implementing their suggestions and your project's specific requirements.
 
 ---
 
