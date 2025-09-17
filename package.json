@@ -20,14 +20,17 @@
     "database",
     "automation"
   ],
-  "author": "AI Development Agency",
+  "author": "Peter Salvato",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/ai-development-agency.git"
+    "url": "https://github.com/PeterSalvato/DesignAgency.git"
   },
-  "homepage": "https://github.com/username/ai-development-agency#readme"
+  "bugs": {
+    "url": "https://github.com/PeterSalvato/DesignAgency/issues"
+  },
+  "homepage": "https://github.com/PeterSalvato/DesignAgency#readme"
 }

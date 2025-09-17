@@ -281,4 +281,20 @@ After integration, your project will achieve:
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## 🙏 Acknowledgments
+
+- Built for the [Claude Code](https://claude.ai/code) ecosystem
+- Inspired by modern development team structures and AI-assisted workflows
+- Designed for seamless integration with existing project methodologies
+
+---
+
 **Transform any Claude Code project into a design and development powerhouse with AI specialists working across your entire stack.** 🚀
