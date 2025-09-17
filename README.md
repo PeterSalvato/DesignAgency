@@ -1,18 +1,19 @@
-# 🏢 AI Development Agency
+# AI Development Agency
 
-**Import an entire AI development team into any Claude Code project.**
+A collection of AI specialists for Claude Code projects.
 
-The agency adapts to your existing project methodology by reading your `conventions.md` and `symbol-index.md` files to understand your specific standards, naming conventions, and architectural patterns.
+Reads your project's `conventions.md` and `symbol-index.md` files to understand your specific standards and provide contextually relevant recommendations.
 
-## 🚀 Quick Start
+## Installation
 
 ```bash
-# In your Claude Code project:
 git clone https://github.com/PeterSalvato/PortableAgency ./PortableAgency
 cd PortableAgency && npm run integrate
 ```
 
-Your project now has a complete AI development team with **30 focused specialists**:
+## Specialists
+
+30 AI specialists across 13 departments:
 - 🎨 **Design**: Visual reviewer, accessibility specialist
 - ⚛️ **Frontend**: React architect, performance engineer
 - 🔧 **Backend**: API architect, security engineer
@@ -27,9 +28,7 @@ Your project now has a complete AI development team with **30 focused specialist
 - 📱 **Mobile**: Mobile architect, mobile UI specialist
 - 🛡️ **Cybersecurity**: Penetration testing and advanced threat analysis specialist
 
-## 🎯 Available Commands
-
-After integration, you'll have access to:
+## Commands
 
 ```bash
 # Design Team
@@ -112,12 +111,12 @@ After integration, you'll have access to:
 /cyber-attack-surface <infrastructure>     # Attack surface analysis
 ```
 
-## 📁 What Gets Integrated
+## File Structure
 
 ```
 your-project/
-├── PortableAgency/                     # The complete development team
-│   └── departments/               # All specialist departments
+├── PortableAgency/                     # AI specialists
+│   └── departments/               # Specialist departments
 │       ├── design/               # Visual development specialists
 │       ├── frontend/             # React/Next.js specialists
 │       ├── backend/              # API/security specialists
@@ -142,9 +141,7 @@ your-project/
 └── tailwind.config.js            # Extended with design system
 ```
 
-## 🔍 Quality Assurance & Audit Framework
-
-The AI Development Agency includes a comprehensive audit framework to prevent critical oversights and ensure system reliability:
+## Audit Framework
 
 ### Systematic Oversight Prevention
 ```bash
@@ -187,7 +184,7 @@ The AI Development Agency includes a comprehensive audit framework to prevent cr
 # → Generates actionable update recommendations
 ```
 
-## 🔄 Workflow Examples
+## Usage Examples
 
 ### Design Review & Iteration
 ```bash
@@ -272,9 +269,7 @@ The AI Development Agency includes a comprehensive audit framework to prevent cr
 # → Validates feature meets all quality gates before completion
 ```
 
-## 🎨 Design System Integration
-
-The agency includes a comprehensive design system:
+## Design System
 
 ```css
 /* 8px Grid System */
@@ -294,15 +289,15 @@ btn-primary, btn-secondary     /* Button styles */
 card, card-hover              /* Card layouts */
 ```
 
-## ⚙️ Technical Requirements
+## Requirements
 
 - **Claude Code** installed and configured
 - **Node.js** 18+ for integration script
 - **Host project** with `conventions.md` and `symbol-index.md` files (recommended for optimal integration)
 
-## 🔗 Host Project Integration
+## Project Integration
 
-The AI Development Agency automatically adapts to your existing project through an intelligent methodology discovery workflow:
+Automatically adapts to existing projects through methodology discovery:
 
 ### **Methodology Discovery Workflow**
 1. **Search for existing methodology**: Checks for `conventions.md` and `symbol-index.md` in root, docs/, .github/, etc.
@@ -319,9 +314,9 @@ The AI Development Agency automatically adapts to your existing project through 
 /setup-project-methodology --force-create
 ```
 
-**Result**: All 27 specialists understand and follow your project's specific conventions, architectural patterns, and quality standards.
+All specialists use discovered/created methodology for project-aligned recommendations.
 
-## 🔄 Keeping Updated
+## Updates
 
 ```bash
 # Get latest improvements
@@ -330,18 +325,17 @@ git pull origin main
 npm run integrate  # Re-apply latest changes
 ```
 
-## 🎯 What You Get
+## Features
 
-After integration, you have access to:
-- **30 AI specialists** across 13 departments for comprehensive project coverage
-- **Technology-aware recommendations** from specialists who understand your specific stack
-- **Automated methodology discovery** that adapts to your project's existing conventions
-- **Systematic audit capabilities** to identify potential oversights before they become problems
-- **Real specialist invocation** via Task tool (not Claude pretending to be specialists)
-- **Parallel execution support** for faster multi-specialist reviews
-- **Modular expansion pack system** for perfect technology stack fit
+- 30 AI specialists across 13 departments
+- Technology-aware recommendations based on your specific stack
+- Methodology discovery that adapts to existing project conventions
+- Systematic audit capabilities for identifying potential issues
+- Specialist invocation via Task tool
+- Parallel execution support
+- Modular expansion pack system
 
-**Important**: These are AI assistants that provide recommendations and analysis. Actual results depend on implementing their suggestions and your project's specific requirements.
+Note: These are AI assistants that provide recommendations and analysis. Results depend on implementing their suggestions.
 
 ---
 
@@ -365,6 +359,3 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - Inspired by modern development team structures and AI-assisted workflows
 - Designed for seamless integration with existing project methodologies
 
----
-
-**Transform any Claude Code project into a design and development powerhouse with AI specialists working across your entire stack.** 🚀
