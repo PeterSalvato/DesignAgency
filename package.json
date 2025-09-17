@@ -1,0 +1,33 @@
+{
+  "name": "ai-development-agency",
+  "version": "1.0.0",
+  "description": "Complete AI development team for Claude Code projects",
+  "main": "integrate.js",
+  "scripts": {
+    "integrate": "node integrate.js",
+    "demo": "cd project && npm install && npm run dev",
+    "test": "cd project && npm run test"
+  },
+  "keywords": [
+    "ai",
+    "development",
+    "agency",
+    "claude-code",
+    "design",
+    "frontend",
+    "backend",
+    "css",
+    "database",
+    "automation"
+  ],
+  "author": "AI Development Agency",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/ai-development-agency.git"
+  },
+  "homepage": "https://github.com/username/ai-development-agency#readme"
+}
