@@ -8,7 +8,7 @@ The agency adapts to your existing project methodology by reading your `conventi
 
 ```bash
 # In your Claude Code project:
-git clone https://github.com/username/ai-dev-agency ./ai-agency
+git clone https://github.com/PeterSalvato/PortableAgency ./ai-agency
 cd ai-agency && npm run integrate
 ```
 
@@ -283,7 +283,13 @@ After integration, your project will achieve:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under a custom Attribution Required License - see the [LICENSE](LICENSE) file for details.
+
+**Attribution Required**: Any use of this software must include prominent attribution to:
+- Original repository: https://github.com/PeterSalvato/PortableAgency
+- Credit: "Peter Salvato's AI Development Agency"
+
+**Distribution**: Modified versions and sublicensing require explicit written permission.
 
 ## 🤝 Contributing
 
