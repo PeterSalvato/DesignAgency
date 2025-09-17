@@ -8,8 +8,8 @@ The agency adapts to your existing project methodology by reading your `conventi
 
 ```bash
 # In your Claude Code project:
-git clone https://github.com/PeterSalvato/PortableAgency ./ai-agency
-cd ai-agency && npm run integrate
+git clone https://github.com/PeterSalvato/PortableAgency ./PortableAgency
+cd PortableAgency && npm run integrate
 ```
 
 Your project now has a complete AI development team with **27 focused specialists**:
@@ -103,7 +103,7 @@ After integration, you'll have access to:
 
 ```
 your-project/
-├── ai-agency/                     # The complete development team
+├── PortableAgency/                     # The complete development team
 │   └── departments/               # All specialist departments
 │       ├── design/               # Visual development specialists
 │       ├── frontend/             # React/Next.js specialists
@@ -265,7 +265,7 @@ The AI Development Agency automatically adapts to your existing project through 
 
 ```bash
 # Get latest improvements
-cd ai-agency
+cd PortableAgency
 git pull origin main
 npm run integrate  # Re-apply latest changes
 ```
