@@ -1,16 +1,32 @@
-MIT License
+Attribution Required License
 
 Copyright (c) 2024 Peter Salvato
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use
+the Software for personal and commercial purposes, subject to the following
+conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+ATTRIBUTION REQUIRED:
+- The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software
+- Any use of this Software must include prominent attribution to the original
+  repository: https://github.com/PeterSalvato/PortableAgency
+- Credit must be given to "Peter Salvato's AI Development Agency" in any
+  project documentation or public materials that utilize this Software
+
+DISTRIBUTION RESTRICTIONS:
+- Distribution of modified versions is permitted only with explicit written
+  permission from the copyright holder
+- Sublicensing is prohibited without explicit written permission from the
+  copyright holder
+- Commercial redistribution as a standalone product requires explicit written
+  permission from the copyright holder
+
+PERMITTED USES:
+- Integration into personal and commercial projects with proper attribution
+- Modification for personal use within your own projects
+- Educational and research purposes with proper attribution
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
