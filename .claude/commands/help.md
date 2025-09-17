@@ -61,13 +61,13 @@ function showQuickReference() {
 /help frontend react      # Show react-architect details
 \`\`\`
 
-🎯 **26 specialists across 12 departments ready to help!**`;
+🎯 **28 specialists across 13 departments ready to help!**`;
 }
 
 function showOverview() {
   return `# 🏢 AI Development Agency - Complete Help Guide
 
-## 📋 Department Overview (26 specialists total)
+## 📋 Department Overview (28 specialists total)
 
 ### 🎨 **Design (2 specialists)**
 - \`design-reviewer\`: Visual design validation, screenshots, design system
@@ -118,6 +118,9 @@ function showOverview() {
 ### 📱 **Mobile (2 specialists)**
 - \`mobile-architect\`: React Native, cross-platform development
 - \`mobile-ui-specialist\`: Platform-specific design, touch interactions
+
+### 🛡️ **Cybersecurity (1 specialist)**
+- \`cybersecurity-specialist\`: Penetration testing, threat modeling, incident forensics
 
 ## 🎯 Quick Navigation
 \`\`\`bash
@@ -196,7 +199,7 @@ Available departments: \${Object.keys(departments).join(', ')}\`;
 ```
 
 ## Expected Output
-- Comprehensive help system for all 26 specialists
+- Comprehensive help system for all 28 specialists
 - Department-level and specialist-level help
 - Command examples and usage patterns
 - Quick reference for common tasks

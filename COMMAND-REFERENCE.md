@@ -73,6 +73,16 @@
 /mobile-ui-platform-review designs/mobile/
 ```
 
+## 🛡️ **Cybersecurity** (1 specialist)
+
+```bash
+# Security Testing
+/cyber-pentest-web src/api/
+/cyber-threat-model "payment-system"
+/cyber-incident-forensics evidence/
+/cyber-attack-surface infrastructure/
+```
+
 ## 👥 **Management & Coordination** (5 specialists)
 
 ```bash

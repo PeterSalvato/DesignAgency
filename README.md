@@ -12,7 +12,7 @@ git clone https://github.com/PeterSalvato/PortableAgency ./PortableAgency
 cd PortableAgency && npm run integrate
 ```
 
-Your project now has a complete AI development team with **27 focused specialists**:
+Your project now has a complete AI development team with **30 focused specialists**:
 - 🎨 **Design**: Visual reviewer, accessibility specialist
 - ⚛️ **Frontend**: React architect, performance engineer
 - 🔧 **Backend**: API architect, security engineer
@@ -20,11 +20,12 @@ Your project now has a complete AI development team with **27 focused specialist
 - 🗃️ **Database**: Schema architect, query optimizer
 - ✍️ **Content**: Copywriter, brand strategist
 - 🧪 **Testing**: Test engineer, QA automation
-- 👥 **Management**: Project coordinator, tech lead, methodology specialist
+- 👥 **Management**: Project coordinator, tech lead, methodology specialist, methodology maintainer, audit specialist
 - 🚀 **DevOps**: DevOps engineer, monitoring specialist, security operations, platform engineer
 - 📊 **Product**: Product manager, UX researcher, data analyst
 - 🤖 **AI/Data**: AI engineer, data engineer
 - 📱 **Mobile**: Mobile architect, mobile UI specialist
+- 🛡️ **Cybersecurity**: Penetration testing and advanced threat analysis specialist
 
 ## 🎯 Available Commands
 
@@ -73,6 +74,12 @@ After integration, you'll have access to:
 /manage-conflict-resolution <issue>        # Arbitrate technical disagreements
 /manage-workflow-optimization <project>    # Optimize team collaboration
 /manage-quality-gates <release>            # Enforce standards across departments
+/methodology-sync-update                   # Update methodology files with recent changes
+/methodology-track-changes --since=week   # Show methodology evolution
+/methodology-auto-update on               # Enable automatic methodology updates
+/audit-system-integration                 # Comprehensive system validation and oversight prevention
+/audit-data-flow <specialist>             # Analyze data flow for specific specialist
+/audit-user-journey <scenario>            # Test complete user workflows
 
 # DevOps Team
 /devops-ci-cd-setup <repository>           # CI/CD pipeline implementation
@@ -97,6 +104,12 @@ After integration, you'll have access to:
 /mobile-performance-optimization <app>     # Mobile performance tuning
 /mobile-ui-platform-review <design>       # Platform design guideline compliance
 /mobile-deployment-strategy <platform>     # App store deployment planning
+
+# Cybersecurity Team
+/cyber-pentest-web <application>           # Web application penetration testing
+/cyber-threat-model <system>               # Comprehensive threat modeling
+/cyber-incident-forensics <evidence>       # Digital forensics investigation
+/cyber-attack-surface <infrastructure>     # Attack surface analysis
 ```
 
 ## 📁 What Gets Integrated
@@ -116,7 +129,9 @@ your-project/
 │       ├── devops/               # CI/CD and infrastructure specialists
 │       ├── product/              # Product strategy and UX specialists
 │       ├── ai-data/              # AI engineering and data specialists
-│       └── mobile/               # Mobile development specialists
+│       ├── mobile/               # Mobile development specialists
+│       ├── cybersecurity/        # Penetration testing and threat analysis specialists
+│       └── AUDIT-FRAMEWORK.md   # Comprehensive system audit methodology
 │
 ├── .claude/
 │   ├── agents/                   # All specialists linked here
@@ -125,6 +140,51 @@ your-project/
 ├── package.json                  # Enhanced with agency scripts
 ├── CLAUDE.md                     # Extended with agency workflows
 └── tailwind.config.js            # Extended with design system
+```
+
+## 🔍 Quality Assurance & Audit Framework
+
+The AI Development Agency includes a comprehensive audit framework to prevent critical oversights and ensure system reliability:
+
+### Systematic Oversight Prevention
+```bash
+# Comprehensive system validation
+/audit-system-integration --scope=full
+# → Validates data flow for all 30 specialists
+# → Tests user experience over multiple timepoints
+# → Ensures knowledge persistence and accuracy
+# → Identifies potential architecture gaps
+
+# Lifecycle-complete reviews
+/audit-data-flow cybersecurity-specialist
+# → Maps input sources, processing, and outputs
+# → Validates bidirectional knowledge flow
+# → Ensures generated insights persist in system
+# → Prevents knowledge loss and isolation
+
+# User experience validation
+/audit-user-journey "new-team-member-onboarding"
+# → Tests cold-start scenarios with methodology files
+# → Validates documentation accuracy over time
+# → Ensures 90%+ pattern documentation coverage
+# → Confirms developer productivity within 1 day
+```
+
+### Continuous Quality Monitoring
+```bash
+# Automated methodology maintenance
+/methodology-auto-update on
+# → Keeps conventions.md current with codebase changes
+# → Updates symbol-index.md with new architectural patterns
+# → Tracks methodology evolution over time
+# → Prevents documentation drift
+
+# Change tracking and validation
+/methodology-track-changes --since=week --detailed
+# → Shows pattern evolution and new conventions
+# → Identifies potential methodology gaps
+# → Provides impact assessment for changes
+# → Generates actionable update recommendations
 ```
 
 ## 🔄 Workflow Examples
@@ -278,6 +338,9 @@ After integration, your project will achieve:
 - **<200ms API response times** (backend optimization)
 - **Zero critical vulnerabilities** (security scanning)
 - **Design system compliance** (visual consistency)
+- **100% methodology accuracy** (automated documentation maintenance)
+- **Comprehensive system validation** (systematic audit framework)
+- **Lifecycle-aware quality assurance** (temporal consistency testing)
 
 ---
 

@@ -10,7 +10,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define all 26 specialists across 12 departments
+// Define all 30 specialists across 13 departments
 const specialists = {
   design: [
     { name: 'design-reviewer', description: 'Visual design review with screenshots' },
@@ -42,7 +42,9 @@ const specialists = {
   management: [
     { name: 'project-coordinator', description: 'Cross-department coordination' },
     { name: 'tech-lead', description: 'Technical leadership and architecture' },
-    { name: 'methodology-specialist', description: 'Project methodology discovery and creation' }
+    { name: 'methodology-specialist', description: 'Project methodology discovery and creation' },
+    { name: 'methodology-maintainer', description: 'Live methodology updates and synchronization' },
+    { name: 'audit-specialist', description: 'System auditing and oversight prevention' }
   ],
   devops: [
     { name: 'devops-engineer', description: 'CI/CD pipelines and deployment automation' },
@@ -62,6 +64,9 @@ const specialists = {
   mobile: [
     { name: 'mobile-architect', description: 'React Native and cross-platform development' },
     { name: 'mobile-ui-specialist', description: 'Platform-specific design and touch interactions' }
+  ],
+  cybersecurity: [
+    { name: 'cybersecurity-specialist', description: 'Penetration testing and advanced threat analysis' }
   ]
 };
 
@@ -224,7 +229,7 @@ console.log('📁 Created agent files in .claude/agents/');
 console.log('⚡ Created command files in .claude/commands/');
 console.log('🔍 Created verification guide in .claude/verification.md');
 console.log('');
-console.log('🎯 Total Specialists: 27 across 12 departments');
+console.log('🎯 Total Specialists: 30 across 13 departments');
 console.log('🏗️  DevOps: CI/CD, monitoring, security-ops, platform engineering');
 console.log('📊 Product: Product management, UX research, data analytics');
 console.log('🤖 AI/Data: AI engineering, data pipelines');

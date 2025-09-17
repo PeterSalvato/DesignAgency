@@ -29,11 +29,12 @@ Responses must reference their department file:
 **database**: schema-architect, query-optimizer
 **content**: copywriter, brand-strategist
 **testing**: test-engineer, qa-automation
-**management**: project-coordinator, tech-lead, methodology-specialist
+**management**: project-coordinator, tech-lead, methodology-specialist, methodology-maintainer
 **devops**: devops-engineer, monitoring-specialist, security-operations, platform-engineer
 **product**: product-manager, ux-researcher, data-analyst
 **ai-data**: ai-engineer, data-engineer
 **mobile**: mobile-architect, mobile-ui-specialist
+**cybersecurity**: cybersecurity-specialist
 
 ### 5. Command Usage
 ```bash

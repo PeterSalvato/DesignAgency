@@ -5,7 +5,7 @@
 ## 🎯 Project Overview
 
 **Purpose**: Complete AI development team that can be imported into any Claude Code project
-**Architecture**: 26 specialists across 12 departments with Task tool integration
+**Architecture**: 30 specialists across 13 departments with comprehensive audit framework
 **Integration**: Portable system using Claude Code agent and command files
 
 ## 📊 Functional Dependency Map
@@ -141,7 +141,7 @@ departments/testing/
 └── No context files (testing patterns are universal)
 ```
 
-#### 👥 Management Department (2 specialists)
+#### 👥 Management Department (5 specialists)
 ```
 departments/management/
 ├── agents/
@@ -150,11 +150,32 @@ departments/management/
 │   │   ├── Tools: Task orchestration, workflow management
 │   │   ├── Dependencies: ALL departments (coordination layer)
 │   │   └── Success Criteria: <24hr conflict resolution
-│   └── tech-lead.md
-│       ├── Function: Architecture decisions, code review orchestration
-│       ├── Tools: Code review, architecture validation
-│       ├── Dependencies: ALL technical specialists (technical oversight)
-│       └── Success Criteria: Consistent technical decisions
+│   ├── tech-lead.md
+│   │   ├── Function: Architecture decisions, code review orchestration
+│   │   ├── Tools: Code review, architecture validation
+│   │   ├── Dependencies: ALL technical specialists (technical oversight)
+│   │   └── Success Criteria: Consistent technical decisions
+│   ├── methodology-specialist.md
+│   │   ├── Function: Project methodology discovery and creation
+│   │   ├── Tools: Codebase analysis, documentation generation
+│   │   ├── Dependencies: ALL departments (methodology coordination)
+│   │   └── Success Criteria: Complete project methodology documentation
+│   ├── methodology-maintainer.md
+│   │   ├── Function: Live methodology updates and synchronization
+│   │   ├── Tools: Change detection, documentation automation
+│   │   ├── Dependencies: methodology-specialist.md, ALL departments
+│   │   └── Success Criteria: Always-current methodology files
+│   └── audit-specialist.md
+│       ├── Function: System auditing and oversight prevention
+│       ├── Tools: Lifecycle analysis, temporal validation, user journey testing
+│       ├── Dependencies: ALL departments (comprehensive validation)
+│       └── Success Criteria: Zero critical architecture gaps, 100% system validation
+├── commands/
+│   ├── methodology-sync-update.md
+│   ├── methodology-track-changes.md
+│   ├── methodology-auto-update.md
+│   └── audit-system-integration.md
+├── AUDIT-FRAMEWORK.md (comprehensive system audit methodology)
 └── No context files (management patterns are procedural)
 ```
 
@@ -239,6 +260,22 @@ departments/mobile/
 │       ├── Dependencies: design-reviewer.md (design consistency)
 │       └── Success Criteria: Platform-native feel, >95% accessibility
 └── No context files (mobile patterns are platform-specific)
+```
+
+#### 🛡️ Cybersecurity Department (1 specialist)
+```
+departments/cybersecurity/
+├── agents/
+│   └── cybersecurity-specialist.md
+│       ├── Function: Penetration testing, threat modeling, incident forensics
+│       ├── Tools: OWASP ZAP, Burp Suite, Metasploit, Wireshark
+│       ├── Dependencies: security-engineer.md, security-operations.md
+│       └── Success Criteria: Zero critical vulnerabilities, complete threat coverage
+├── commands/
+│   ├── cyber-pentest.md
+│   ├── cyber-threat-model.md
+│   └── cyber-incident-forensics.md
+└── No context files (security testing patterns are engagement-specific)
 ```
 
 #### 🎨 CSS Department (1 specialist)

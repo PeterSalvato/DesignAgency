@@ -1,18 +1,31 @@
 #!/usr/bin/env node
 
 /**
- * Design Team Integration Script
+ * AI Development Agency Integration Script
  *
- * Integrates the AI-powered visual development workflow into any existing
- * Claude Code project as an imported design team.
+ * Integrates 30 AI specialists across 13 departments into any existing
+ * Claude Code project as a portable development team.
  */
 
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-console.log('🎨 Design Team Integration\n');
-console.log('Adding AI-powered visual development capabilities to your project...\n');
+// Enhanced error handling
+process.on('uncaughtException', (error) => {
+  console.error('❌ Unexpected error occurred:');
+  console.error(error.message);
+  console.error('\n📋 Please report this issue with the full error log.');
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('❌ Unhandled promise rejection:', reason);
+  process.exit(1);
+});
+
+console.log('🏢 AI Development Agency Integration\n');
+console.log('Adding 30 AI specialists across 13 departments to your project...\n');
 
 // Determine the target project directory (parent of design-team)
 const designTeamDir = process.cwd();
@@ -23,14 +36,42 @@ console.log(`📁 Design Team Directory: ${designTeamDir}`);
 console.log(`📁 Target Project Directory: ${projectDir}`);
 console.log(`📂 Integration Name: ${designTeamName}\n`);
 
-// Validate we're in the right place
-if (!fs.existsSync(path.join(projectDir, 'package.json'))) {
-  console.log('❌ No package.json found in parent directory.');
-  console.log('   Please run this from within your cloned design-team directory:');
-  console.log('   git clone https://github.com/username/design-team ./design-team');
-  console.log('   cd design-team && node integrate.js');
-  process.exit(1);
+// Enhanced validation
+function validateEnvironment() {
+  // Check if we're in the correct directory
+  if (!fs.existsSync(path.join(projectDir, 'package.json'))) {
+    console.log('❌ No package.json found in parent directory.');
+    console.log('   Please run this from within your cloned PortableAgency directory:');
+    console.log('   git clone https://github.com/PeterSalvato/PortableAgency ./PortableAgency');
+    console.log('   cd PortableAgency && npm run integrate');
+    process.exit(1);
+  }
+
+  // Check if .claude directory exists in project
+  const claudeDir = path.join(projectDir, '.claude');
+  if (!fs.existsSync(claudeDir)) {
+    console.log('⚠️  No .claude directory found in target project.');
+    console.log('   This project may not be configured for Claude Code.');
+    console.log('   Creating .claude directory for integration...');
+  }
+
+  // Verify we have the required agency files
+  const requiredFiles = [
+    '.claude/agents',
+    '.claude/commands',
+    'departments'
+  ];
+
+  for (const file of requiredFiles) {
+    if (!fs.existsSync(path.join(designTeamDir, file))) {
+      console.log(`❌ Missing required agency file: ${file}`);
+      console.log('   This doesn\'t appear to be a complete PortableAgency installation.');
+      process.exit(1);
+    }
+  }
 }
+
+validateEnvironment();
 
 // Check if this is a Next.js project
 const hasNextJS = fs.existsSync(path.join(projectDir, 'next.config.js')) ||
@@ -45,9 +86,16 @@ if (!hasNextJS) {
 
 console.log('📦 Installing design team dependencies...');
 
-// Read target project's package.json
+// Read target project's package.json with error handling
 const packageJsonPath = path.join(projectDir, 'package.json');
-const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+let packageJson;
+try {
+  packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+} catch (error) {
+  console.log('❌ Failed to read or parse package.json');
+  console.log(`   Error: ${error.message}`);
+  process.exit(1);
+}
 
 // Add required dependencies
 const requiredDeps = {
@@ -249,20 +297,21 @@ try {
   console.log('   Run: npx playwright install chromium');
 }
 
-console.log('\n🎉 Design Team Integration Complete!\n');
+console.log('\n🎉 AI Development Agency Integration Complete!\n');
 
-console.log('🎨 Your project now has AI-powered visual development capabilities:');
-console.log(`   • Design team located at: ./${designTeamName}/`);
-console.log('   • Design agents: /design-visual-review, /design-iterate');
-console.log('   • Design system: Tailwind extended with design tokens');
+console.log('🏢 Your project now has a complete AI development team:');
+console.log(`   • 30 AI specialists across 13 departments`);
+console.log(`   • Agency located at: ./${designTeamName}/`);
+console.log('   • Specialists: Design, Frontend, Backend, CSS, Database, Content, Testing, Management, DevOps, Product, AI/Data, Mobile');
 console.log('   • Visual testing: npm run design:test');
 console.log('   • Accessibility testing: npm run design:accessibility\n');
 
 console.log('📋 Next steps:');
 console.log('   1. Start your development server: npm run dev');
-console.log('   2. In Claude Code, run: /design-visual-review');
-console.log('   3. Begin building with AI design validation');
-console.log(`   4. Check ./${designTeamName}/context/ for design guidelines\n`);
+console.log('   2. In Claude Code, try: /design-help or /design-getting-started');
+console.log('   3. Use specialists: /design-visual-review, /design-frontend-react, /design-backend-security');
+console.log('   4. Run methodology setup: /design-setup-project-methodology');
+console.log(`   5. Check ./${designTeamName}/departments/ for all specialists\n`);
 
 console.log('🔧 Available commands:');
 console.log('   npm run design:test           # Run all visual tests');
@@ -270,5 +319,10 @@ console.log('   npm run design:visual         # Visual regression tests');
 console.log('   npm run design:accessibility  # Accessibility audit');
 console.log('   npm run design:test:ui        # Interactive test runner');
 
-console.log('\n🎯 Pro tip: The design team operates independently and can be updated');
-console.log('   by pulling the latest changes in the design-team directory!');
+console.log('\n⚡ Parallel execution available:');
+console.log('   /design-parallel-full-review  # Run multiple specialists in parallel');
+console.log('   /design-parallel-deployment-readiness  # Pre-deployment checks');
+
+console.log('\n🎯 Pro tip: The AI Development Agency adapts to your project methodology!');
+console.log('   Create conventions.md and symbol-index.md for optimal specialist recommendations.');
+console.log('   Update the agency: cd PortableAgency && git pull && npm run integrate');
