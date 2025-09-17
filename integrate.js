@@ -27,9 +27,238 @@ process.on('unhandledRejection', (reason, promise) => {
 console.log('🏢 AI Development Agency Integration\n');
 console.log('Adding 30 AI specialists across 13 departments to your project...\n');
 
+// Technology Detection System for Expansion Packs
+class TechnologyDetector {
+  constructor(projectDir) {
+    this.projectDir = projectDir;
+  }
+
+  async detectFrontend() {
+    const detections = [];
+    const packageJsonPath = path.join(this.projectDir, 'package.json');
+
+    if (fs.existsSync(packageJsonPath)) {
+      const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+      const allDeps = { ...packageJson.dependencies, ...packageJson.devDependencies };
+
+      if (allDeps.react || allDeps.next) {
+        detections.push({
+          pack: 'frontend-react',
+          confidence: 0.9,
+          evidence: ['package.json: react/next dependencies']
+        });
+      }
+      if (allDeps.vue) {
+        detections.push({
+          pack: 'frontend-vue',
+          confidence: 0.9,
+          evidence: ['package.json: vue dependencies']
+        });
+      }
+      if (allDeps['@angular/core']) {
+        detections.push({
+          pack: 'frontend-angular',
+          confidence: 0.9,
+          evidence: ['package.json: angular dependencies']
+        });
+      }
+    }
+
+    // Check for component directories
+    if (fs.existsSync(path.join(this.projectDir, 'src/components'))) {
+      detections.forEach(d => d.evidence.push('src/components/ directory'));
+    }
+
+    return detections;
+  }
+
+  async detectBackend() {
+    const detections = [];
+
+    // Node.js detection
+    if (fs.existsSync(path.join(this.projectDir, 'package.json'))) {
+      const packageJson = JSON.parse(fs.readFileSync(path.join(this.projectDir, 'package.json'), 'utf8'));
+      const allDeps = { ...packageJson.dependencies, ...packageJson.devDependencies };
+
+      if (allDeps.express || allDeps.fastify || allDeps.koa) {
+        detections.push({
+          pack: 'backend-nodejs',
+          confidence: 0.8,
+          evidence: ['package.json: Node.js server framework']
+        });
+      }
+    }
+
+    // .NET detection
+    const csprojFiles = fs.readdirSync(this.projectDir).filter(f => f.endsWith('.csproj'));
+    if (csprojFiles.length > 0) {
+      detections.push({
+        pack: 'backend-dotnet',
+        confidence: 0.9,
+        evidence: [`${csprojFiles.length} .csproj files found`]
+      });
+    }
+
+    // Python detection
+    if (fs.existsSync(path.join(this.projectDir, 'requirements.txt')) ||
+        fs.existsSync(path.join(this.projectDir, 'pyproject.toml'))) {
+      detections.push({
+        pack: 'backend-python',
+        confidence: 0.8,
+        evidence: ['Python requirements/config files']
+      });
+    }
+
+    // Go detection
+    if (fs.existsSync(path.join(this.projectDir, 'go.mod'))) {
+      detections.push({
+        pack: 'backend-go',
+        confidence: 0.9,
+        evidence: ['go.mod file']
+      });
+    }
+
+    return detections;
+  }
+
+  async detectDatabase() {
+    const detections = [];
+    const packageJsonPath = path.join(this.projectDir, 'package.json');
+
+    if (fs.existsSync(packageJsonPath)) {
+      const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+      const allDeps = { ...packageJson.dependencies, ...packageJson.devDependencies };
+
+      if (allDeps.pg || allDeps.postgres) {
+        detections.push({
+          pack: 'database-postgresql',
+          confidence: 0.8,
+          evidence: ['package.json: PostgreSQL dependencies']
+        });
+      }
+      if (allDeps.mongodb || allDeps.mongoose) {
+        detections.push({
+          pack: 'database-mongodb',
+          confidence: 0.8,
+          evidence: ['package.json: MongoDB dependencies']
+        });
+      }
+      if (allDeps.redis) {
+        detections.push({
+          pack: 'database-redis',
+          confidence: 0.7,
+          evidence: ['package.json: Redis dependencies']
+        });
+      }
+    }
+
+    return detections;
+  }
+
+  async detectCloud() {
+    const detections = [];
+
+    // AWS detection
+    if (fs.existsSync(path.join(this.projectDir, 'aws.yaml')) ||
+        fs.existsSync(path.join(this.projectDir, 'serverless.yml')) ||
+        fs.existsSync(path.join(this.projectDir, '.aws'))) {
+      detections.push({
+        pack: 'cloud-aws',
+        confidence: 0.8,
+        evidence: ['AWS configuration files']
+      });
+    }
+
+    // Azure detection
+    if (fs.existsSync(path.join(this.projectDir, 'azure-pipelines.yml'))) {
+      detections.push({
+        pack: 'cloud-azure',
+        confidence: 0.8,
+        evidence: ['Azure Pipelines configuration']
+      });
+    }
+
+    // Vercel detection
+    if (fs.existsSync(path.join(this.projectDir, 'vercel.json'))) {
+      detections.push({
+        pack: 'cloud-vercel',
+        confidence: 0.9,
+        evidence: ['vercel.json configuration']
+      });
+    }
+
+    return detections;
+  }
+
+  async detectAll() {
+    console.log('🔍 Analyzing project technology stack...');
+
+    const [frontend, backend, database, cloud] = await Promise.all([
+      this.detectFrontend(),
+      this.detectBackend(),
+      this.detectDatabase(),
+      this.detectCloud()
+    ]);
+
+    const allDetections = [...frontend, ...backend, ...database, ...cloud];
+
+    // Sort by confidence score
+    allDetections.sort((a, b) => b.confidence - a.confidence);
+
+    if (allDetections.length > 0) {
+      console.log('📊 Technology Stack Detected:');
+      allDetections.forEach(detection => {
+        console.log(`   ✨ ${detection.pack} (${Math.round(detection.confidence * 100)}% confidence)`);
+        detection.evidence.forEach(evidence => {
+          console.log(`      - ${evidence}`);
+        });
+      });
+      console.log('');
+    }
+
+    return allDetections;
+  }
+}
+
+// Enhanced Agency Integrator with Expansion Pack Support
+class AgencyIntegrator {
+  constructor(projectDir, designTeamDir) {
+    this.projectDir = projectDir;
+    this.designTeamDir = designTeamDir;
+    this.detector = new TechnologyDetector(projectDir);
+  }
+
+  async suggestExpansionPacks() {
+    const detections = await this.detector.detectAll();
+
+    if (detections.length === 0) {
+      console.log('💡 No specific technology stack detected.');
+      console.log('   Using base pack with universal specialists.');
+      return [];
+    }
+
+    const recommendations = detections.filter(d => d.confidence > 0.7);
+
+    if (recommendations.length > 0) {
+      console.log('🎯 Recommended Expansion Packs:');
+      recommendations.forEach(rec => {
+        console.log(`   📦 ${rec.pack}: Enhanced ${rec.pack.split('-')[1]} specialists`);
+      });
+      console.log('');
+      console.log('   Note: Expansion pack system will be available in next release.');
+      console.log('   Currently installing base pack with 30 universal specialists.\n');
+    }
+
+    return recommendations;
+  }
+}
+
 // Determine the target project directory (parent of design-team)
 const designTeamDir = process.cwd();
 const projectDir = path.dirname(designTeamDir);
+
+// Initialize the enhanced integrator
+const integrator = new AgencyIntegrator(projectDir, designTeamDir);
 const designTeamName = path.basename(designTeamDir);
 
 console.log(`📁 Design Team Directory: ${designTeamDir}`);
@@ -71,64 +300,69 @@ function validateEnvironment() {
   }
 }
 
-validateEnvironment();
+// Main integration workflow
+async function runIntegration() {
+  validateEnvironment();
 
-// Check if this is a Next.js project
-const hasNextJS = fs.existsSync(path.join(projectDir, 'next.config.js')) ||
-                  fs.existsSync(path.join(projectDir, 'next.config.mjs')) ||
-                  fs.existsSync(path.join(projectDir, 'next.config.ts'));
+  // Run technology detection and expansion pack suggestions
+  await integrator.suggestExpansionPacks();
 
-if (!hasNextJS) {
-  console.log('⚠️  Target project doesn\'t appear to be Next.js.');
-  console.log('   The design team is optimized for Next.js with Tailwind CSS.');
-  console.log('   Continuing with integration...\n');
-}
+  // Check if this is a Next.js project
+  const hasNextJS = fs.existsSync(path.join(projectDir, 'next.config.js')) ||
+                    fs.existsSync(path.join(projectDir, 'next.config.mjs')) ||
+                    fs.existsSync(path.join(projectDir, 'next.config.ts'));
 
-console.log('📦 Installing design team dependencies...');
+  if (!hasNextJS) {
+    console.log('⚠️  Target project doesn\'t appear to be Next.js.');
+    console.log('   The design team is optimized for Next.js with Tailwind CSS.');
+    console.log('   Continuing with integration...\n');
+  }
 
-// Read target project's package.json with error handling
-const packageJsonPath = path.join(projectDir, 'package.json');
-let packageJson;
-try {
-  packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-} catch (error) {
-  console.log('❌ Failed to read or parse package.json');
-  console.log(`   Error: ${error.message}`);
-  process.exit(1);
-}
+  console.log('📦 Installing design team dependencies...');
 
-// Add required dependencies
-const requiredDeps = {
-  '@tailwindcss/aspect-ratio': '^0.4.2',
-  '@tailwindcss/forms': '^0.5.10',
-  '@tailwindcss/typography': '^0.5.16',
-};
+  // Read target project's package.json with error handling
+  const packageJsonPath = path.join(projectDir, 'package.json');
+  let packageJson;
+  try {
+    packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+  } catch (error) {
+    console.log('❌ Failed to read or parse package.json');
+    console.log(`   Error: ${error.message}`);
+    process.exit(1);
+  }
 
-const requiredDevDeps = {
-  '@axe-core/playwright': '^4.8.0',
-  '@playwright/test': '^1.40.0',
-  'autoprefixer': '^10.0.0',
-  'postcss': '^8.0.0',
-  'tailwindcss': '^3.0.0'
-};
+  // Add required dependencies
+  const requiredDeps = {
+    '@tailwindcss/aspect-ratio': '^0.4.2',
+    '@tailwindcss/forms': '^0.5.10',
+    '@tailwindcss/typography': '^0.5.16',
+  };
 
-// Merge dependencies (don't overwrite existing versions)
-packageJson.dependencies = { ...requiredDeps, ...packageJson.dependencies };
-packageJson.devDependencies = { ...requiredDevDeps, ...packageJson.devDependencies };
+  const requiredDevDeps = {
+    '@axe-core/playwright': '^4.8.0',
+    '@playwright/test': '^1.40.0',
+    'autoprefixer': '^10.0.0',
+    'postcss': '^8.0.0',
+    'tailwindcss': '^3.0.0'
+  };
 
-// Add design team scripts with namespace
-const designTeamScripts = {
-  'design:test': `playwright test --config=${designTeamName}/config/playwright.config.ts`,
-  'design:test:ui': `playwright test --config=${designTeamName}/config/playwright.config.ts --ui`,
-  'design:visual': `playwright test --config=${designTeamName}/config/playwright.config.ts --project=visual-regression`,
-  'design:accessibility': `playwright test --config=${designTeamName}/config/playwright.config.ts --project=accessibility`,
-  'design:update-snapshots': `playwright test --config=${designTeamName}/config/playwright.config.ts --update-snapshots`
-};
+  // Merge dependencies (don't overwrite existing versions)
+  packageJson.dependencies = { ...requiredDeps, ...packageJson.dependencies };
+  packageJson.devDependencies = { ...requiredDevDeps, ...packageJson.devDependencies };
 
-packageJson.scripts = { ...packageJson.scripts, ...designTeamScripts };
+  // Add design team scripts with namespace
+  const designTeamScripts = {
+    'design:test': `playwright test --config=${designTeamName}/config/playwright.config.ts`,
+    'design:test:ui': `playwright test --config=${designTeamName}/config/playwright.config.ts --ui`,
+    'design:visual': `playwright test --config=${designTeamName}/config/playwright.config.ts --project=visual-regression`,
+    'design:accessibility': `playwright test --config=${designTeamName}/config/playwright.config.ts --project=accessibility`,
+    'design:update-snapshots': `playwright test --config=${designTeamName}/config/playwright.config.ts --update-snapshots`
+  };
 
-// Write updated package.json
-fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
+  packageJson.scripts = { ...packageJson.scripts, ...designTeamScripts };
+
+  // Write updated package.json
+  fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
 
 console.log('⚙️  Integrating configuration files...');
 
@@ -323,6 +557,13 @@ console.log('\n⚡ Parallel execution available:');
 console.log('   /design-parallel-full-review  # Run multiple specialists in parallel');
 console.log('   /design-parallel-deployment-readiness  # Pre-deployment checks');
 
-console.log('\n🎯 Pro tip: The AI Development Agency adapts to your project methodology!');
-console.log('   Create conventions.md and symbol-index.md for optimal specialist recommendations.');
-console.log('   Update the agency: cd PortableAgency && git pull && npm run integrate');
+  console.log('\n🎯 Pro tip: The AI Development Agency adapts to your project methodology!');
+  console.log('   Create conventions.md and symbol-index.md for optimal specialist recommendations.');
+  console.log('   Update the agency: cd PortableAgency && git pull && npm run integrate');
+}
+
+// Run the integration
+runIntegration().catch(error => {
+  console.error('❌ Integration failed:', error.message);
+  process.exit(1);
+});
