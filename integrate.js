@@ -531,6 +531,19 @@ try {
   console.log('   Run: npx playwright install chromium');
 }
 
+// Integrate all specialists and commands
+console.log('\n🔧 Integrating specialists and specialized commands...');
+try {
+  execSync('node integrate-specialists.js', {
+    cwd: designTeamDir,
+    stdio: 'inherit'
+  });
+  console.log('✅ All specialists and commands integrated successfully');
+} catch (error) {
+  console.log('⚠️  Some specialist commands may need manual setup');
+  console.log(`   Error: ${error.message}`);
+}
+
 console.log('\n🎉 AI Development Agency Integration Complete!\n');
 
 console.log('🏢 Your project now has a complete AI development team:');

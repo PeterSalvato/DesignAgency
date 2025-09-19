@@ -183,6 +183,45 @@ Object.entries(specialists).forEach(([department, departmentSpecialists]) => {
   });
 });
 
+// Copy specialized commands from departments
+console.log('📋 Copying specialized commands from departments...');
+
+// Define departments with specialized commands
+const departmentsWithCommands = [
+  'design',
+  'frontend',
+  'backend',
+  'css',
+  'database',
+  'content',
+  'testing',
+  'management',
+  'devops',
+  'product',
+  'ai-data',
+  'mobile',
+  'cybersecurity'
+];
+
+departmentsWithCommands.forEach(dept => {
+  const deptCommandsPath = `./departments/${dept}/commands`;
+
+  if (fs.existsSync(deptCommandsPath)) {
+    const commandFiles = fs.readdirSync(deptCommandsPath).filter(f => f.endsWith('.md'));
+
+    commandFiles.forEach(commandFile => {
+      const sourcePath = path.join(deptCommandsPath, commandFile);
+      const targetPath = path.join(commandsDir, commandFile);
+
+      // Read and copy the specialized command
+      const commandContent = fs.readFileSync(sourcePath, 'utf8');
+      fs.writeFileSync(targetPath, commandContent);
+
+      console.log(`   ✅ Copied ${dept}/${commandFile}`);
+    });
+  }
+});
+
 // Create master verification file
 const verificationContent = `# Specialist Invocation Verification
 
