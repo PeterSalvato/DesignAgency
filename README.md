@@ -1,5 +1,13 @@
 # AI Development Agency
 
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/PeterSalvato/DesignAgency)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-green.svg)](https://claude.ai/code)
+[![Self Discovering](https://img.shields.io/badge/Self--Discovering-✨-brightgreen.svg)](#self-discovering-architecture)
+[![Auto Verification](https://img.shields.io/badge/Auto%20Verification-🛡️-orange.svg)](#self-verification-system)
+[![Tech Detection](https://img.shields.io/badge/Tech%20Detection-91%25-blue.svg)](#technology-detection)
+[![Zero Config](https://img.shields.io/badge/Setup-Zero%20Config-success.svg)](#quick-start)
+[![License](https://img.shields.io/badge/License-Custom-red.svg)](LICENSE)
+
 A self-discovering AI specialist system for Claude Code that automatically configures based on your project's technology stack and provides comprehensive development assistance with built-in verification.
 
 ## ✨ Key Features
