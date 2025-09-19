@@ -1,0 +1,216 @@
+<testsuites id="" name="" tests="8" failures="3" skipped="0" errors="0" time="19.644612999999996">
+<testsuite name="accessibility/accessibility-audit.spec.ts" timestamp="2025-09-19T21:21:56.288Z" hostname="accessibility" tests="8" failures="3" skipped="0" time="14.38" errors="0">
+<testcase name="Accessibility Audit › Homepage - WCAG 2.1 AA Compliance" classname="accessibility/accessibility-audit.spec.ts" time="2.746">
+<system-out>
+<![CDATA[Accessibility Scan Results:
+Total violations: 0
+Total passes: 24
+PASSED RULES:
+1. aria-allowed-attr: Ensure an element's role supports its ARIA attributes
+2. aria-conditional-attr: Ensure ARIA attributes are used as described in the specification of the element's role
+3. aria-deprecated-role: Ensure elements do not use deprecated roles
+4. aria-hidden-body: Ensure aria-hidden="true" is not present on the document body.
+5. aria-hidden-focus: Ensure aria-hidden elements are not focusable nor contain focusable elements
+6. aria-prohibited-attr: Ensure ARIA attributes are not prohibited for an element's role
+7. aria-required-attr: Ensure elements with ARIA roles have all required ARIA attributes
+8. aria-roles: Ensure all elements with a role attribute use a valid value
+9. aria-valid-attr-value: Ensure all ARIA attributes have valid values
+10. aria-valid-attr: Ensure attributes that begin with aria- are valid ARIA attributes
+11. avoid-inline-spacing: Ensure that text spacing set through style attributes can be adjusted with custom stylesheets
+12. button-name: Ensure buttons have discernible text
+13. bypass: Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content
+14. color-contrast: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds
+15. document-title: Ensure each HTML document contains a non-empty <title> element
+16. duplicate-id-aria: Ensure every id attribute value used in ARIA and in labels is unique
+17. html-has-lang: Ensure every HTML document has a lang attribute
+18. html-lang-valid: Ensure the lang attribute of the <html> element has a valid value
+19. link-in-text-block: Ensure links are distinguished from surrounding text in a way that does not rely on color
+20. link-name: Ensure links have discernible text
+21. list: Ensure that lists are structured correctly
+22. listitem: Ensure <li> elements are used semantically
+23. meta-viewport: Ensure <meta name="viewport"> does not disable text scaling and zooming
+24. nested-interactive: Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › Keyboard Navigation" classname="accessibility/accessibility-audit.spec.ts" time="1.284">
+<system-out>
+<![CDATA[Found 36 potentially focusable elements
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › Color Contrast" classname="accessibility/accessibility-audit.spec.ts" time="1.627">
+<failure message="accessibility-audit.spec.ts:81:7 Color Contrast" type="FAILURE">
+<![CDATA[  [accessibility] › accessibility/accessibility-audit.spec.ts:81:7 › Accessibility Audit › Color Contrast 
+
+    Error: frame.evaluate: Error: No elements found for include in page Context
+        at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)
+        at new Context (eval at evaluate (:291:30), <anonymous>:18792:7)
+        at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)
+        at eval (eval at evaluate (:291:30), <anonymous>:4:27)
+        at UtilityScript.evaluate (<anonymous>:293:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)
+        at Context (eval at evaluate (:291:30), <anonymous>:18792:7)
+        at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)
+        at eval (eval at evaluate (:291:30), <anonymous>:4:27)
+        at UtilityScript.evaluate (<anonymous>:293:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at AxeBuilder.runPartialRecursive (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:315:39)
+        at AxeBuilder.analyze (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:245:39)
+        at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:82:38
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/video.webm]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › Form Accessibility" classname="accessibility/accessibility-audit.spec.ts" time="1.227">
+<system-out>
+<![CDATA[No forms found on this page
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › Images Alt Text" classname="accessibility/accessibility-audit.spec.ts" time="2.014">
+</testcase>
+<testcase name="Accessibility Audit › Heading Structure" classname="accessibility/accessibility-audit.spec.ts" time="2.117">
+<failure message="accessibility-audit.spec.ts:150:7 Heading Structure" type="FAILURE">
+<![CDATA[  [accessibility] › accessibility/accessibility-audit.spec.ts:150:7 › Accessibility Audit › Heading Structure 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 35
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure the order of headings is semantically correct",
+    +     "help": "Heading levels should only increase by one",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=playwright",
+    +     "id": "heading-order",
+    +     "impact": "moderate",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "heading-order",
+    +             "impact": "moderate",
+    +             "message": "Heading order invalid",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Heading order invalid",
+    +         "html": "<h3 class=\"text-xl font-semibold text-neutral-900 mb-2\">Visual Development in Action</h3>",
+    +         "impact": "moderate",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".text-center > h3",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.semantics",
+    +       "best-practice",
+    +     ],
+    +   },
+    + ]
+
+      167 |     }
+      168 |
+    > 169 |     expect(headingViolations).toEqual([]);
+          |                               ^
+      170 |   });
+      171 |
+      172 |   test('Skip Links', async ({ page }) => {
+        at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:169:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video-1.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[HEADING STRUCTURE VIOLATIONS:
+1. Ensure the order of headings is semantically correct
+   Heading 1: .text-center > h3
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video-1.webm]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video.webm]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › Skip Links" classname="accessibility/accessibility-audit.spec.ts" time="1.432">
+<failure message="accessibility-audit.spec.ts:172:7 Skip Links" type="FAILURE">
+<![CDATA[  [accessibility] › accessibility/accessibility-audit.spec.ts:172:7 › Accessibility Audit › Skip Links 
+
+    Error: locator.count: Unexpected token "/" while parsing css selector "a[href^="#"]:has-text(/skip/i)". Did you mean to CSS.escape it?
+
+      173 |     // Test for skip navigation links
+      174 |     const skipLinks = page.locator('a[href^="#"]:has-text(/skip/i)');
+    > 175 |     const skipLinkCount = await skipLinks.count();
+          |                                           ^
+      176 |
+      177 |     if (skipLinkCount > 0) {
+      178 |       console.log(`Found ${skipLinkCount} skip links`);
+        at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:175:43
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/video.webm]]
+
+[[ATTACHMENT|../../test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility Audit › ARIA Landmarks" classname="accessibility/accessibility-audit.spec.ts" time="1.933">
+</testcase>
+</testsuite>
+</testsuites>

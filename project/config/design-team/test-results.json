@@ -1,0 +1,743 @@
+{
+  "config": {
+    "configFile": "/workspaces/DesignAgency/project/config/playwright.config.ts",
+    "rootDir": "/workspaces/DesignAgency/project/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "./design-team/test-reports"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./design-team/test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "./design-team/test-results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium-desktop",
+        "name": "chromium-desktop",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox-desktop",
+        "name": "firefox-desktop",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit-desktop",
+        "name": "webkit-desktop",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-portrait",
+        "name": "tablet-portrait",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-landscape",
+        "name": "tablet-landscape",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-safari",
+        "name": "mobile-safari",
+        "testDir": "/workspaces/DesignAgency/project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "visual-regression",
+        "name": "visual-regression",
+        "testDir": "/workspaces/DesignAgency/project/tests/visual",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "accessibility",
+        "name": "accessibility",
+        "testDir": "/workspaces/DesignAgency/project/tests/accessibility",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/DesignAgency/project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "performance",
+        "name": "performance",
+        "testDir": "/workspaces/DesignAgency/project/tests/performance",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "accessibility/accessibility-audit.spec.ts",
+      "file": "accessibility/accessibility-audit.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Accessibility Audit",
+          "file": "accessibility/accessibility-audit.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Homepage - WCAG 2.1 AA Compliance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2746,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Accessibility Scan Results:\n"
+                        },
+                        {
+                          "text": "Total violations: 0\n"
+                        },
+                        {
+                          "text": "Total passes: 24\n"
+                        },
+                        {
+                          "text": "PASSED RULES:\n"
+                        },
+                        {
+                          "text": "1. aria-allowed-attr: Ensure an element's role supports its ARIA attributes\n"
+                        },
+                        {
+                          "text": "2. aria-conditional-attr: Ensure ARIA attributes are used as described in the specification of the element's role\n"
+                        },
+                        {
+                          "text": "3. aria-deprecated-role: Ensure elements do not use deprecated roles\n"
+                        },
+                        {
+                          "text": "4. aria-hidden-body: Ensure aria-hidden=\"true\" is not present on the document body.\n"
+                        },
+                        {
+                          "text": "5. aria-hidden-focus: Ensure aria-hidden elements are not focusable nor contain focusable elements\n"
+                        },
+                        {
+                          "text": "6. aria-prohibited-attr: Ensure ARIA attributes are not prohibited for an element's role\n"
+                        },
+                        {
+                          "text": "7. aria-required-attr: Ensure elements with ARIA roles have all required ARIA attributes\n"
+                        },
+                        {
+                          "text": "8. aria-roles: Ensure all elements with a role attribute use a valid value\n"
+                        },
+                        {
+                          "text": "9. aria-valid-attr-value: Ensure all ARIA attributes have valid values\n"
+                        },
+                        {
+                          "text": "10. aria-valid-attr: Ensure attributes that begin with aria- are valid ARIA attributes\n"
+                        },
+                        {
+                          "text": "11. avoid-inline-spacing: Ensure that text spacing set through style attributes can be adjusted with custom stylesheets\n"
+                        },
+                        {
+                          "text": "12. button-name: Ensure buttons have discernible text\n"
+                        },
+                        {
+                          "text": "13. bypass: Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content\n"
+                        },
+                        {
+                          "text": "14. color-contrast: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds\n"
+                        },
+                        {
+                          "text": "15. document-title: Ensure each HTML document contains a non-empty <title> element\n"
+                        },
+                        {
+                          "text": "16. duplicate-id-aria: Ensure every id attribute value used in ARIA and in labels is unique\n"
+                        },
+                        {
+                          "text": "17. html-has-lang: Ensure every HTML document has a lang attribute\n"
+                        },
+                        {
+                          "text": "18. html-lang-valid: Ensure the lang attribute of the <html> element has a valid value\n"
+                        },
+                        {
+                          "text": "19. link-in-text-block: Ensure links are distinguished from surrounding text in a way that does not rely on color\n"
+                        },
+                        {
+                          "text": "20. link-name: Ensure links have discernible text\n"
+                        },
+                        {
+                          "text": "21. list: Ensure that lists are structured correctly\n"
+                        },
+                        {
+                          "text": "22. listitem: Ensure <li> elements are used semantically\n"
+                        },
+                        {
+                          "text": "23. meta-viewport: Ensure <meta name=\"viewport\"> does not disable text scaling and zooming\n"
+                        },
+                        {
+                          "text": "24. nested-interactive: Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:21:57.147Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-b3c7ebffa38cda016089",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Keyboard Navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1284,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Found 36 potentially focusable elements\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:00.026Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-8d037ca13b0b4a72365f",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "Color Contrast",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1627,
+                      "error": {
+                        "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)\n    at new Context (eval at evaluate (:291:30), <anonymous>:18792:7)\n    at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)\n    at eval (eval at evaluate (:291:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                        "stack": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)\n    at new Context (eval at evaluate (:291:30), <anonymous>:18792:7)\n    at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)\n    at eval (eval at evaluate (:291:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)\n    at Context (eval at evaluate (:291:30), <anonymous>:18792:7)\n    at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)\n    at eval (eval at evaluate (:291:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:315:39)\n    at AxeBuilder.analyze (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:245:39)\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:82:38",
+                        "location": {
+                          "file": "eval at evaluate (:291:30), <anonymous>",
+                          "column": 15,
+                          "line": 18811
+                        }
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "eval at evaluate (:291:30), <anonymous>",
+                            "column": 15,
+                            "line": 18811
+                          },
+                          "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)\n    at new Context (eval at evaluate (:291:30), <anonymous>:18792:7)\n    at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)\n    at eval (eval at evaluate (:291:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:291:30), <anonymous>:18811:15)\n    at Context (eval at evaluate (:291:30), <anonymous>:18792:7)\n    at Object._getFrameContexts (eval at evaluate (:291:30), <anonymous>:18833:22)\n    at eval (eval at evaluate (:291:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:315:39)\n    at AxeBuilder.analyze (/workspaces/DesignAgency/project/node_modules/@axe-core/playwright/dist/index.js:245:39)\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:82:38"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:01.329Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Color-Contrast-accessibility/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "eval at evaluate (:291:30), <anonymous>",
+                        "column": 15,
+                        "line": 18811
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-45d80157eea78b8f96a4",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "Form Accessibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1227,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "No forms found on this page\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:03.969Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-9465d8496e14cc6c1f20",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Images Alt Text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2014,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:05.350Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-b3b8a39e32132b1d8142",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 128,
+              "column": 7
+            },
+            {
+              "title": "Heading Structure",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2117,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 35\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure the order of headings is semantically correct\",\u001b[39m\n\u001b[31m+     \"help\": \"Heading levels should only increase by one\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.10/heading-order?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": null,\u001b[39m\n\u001b[31m+             \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"Heading order invalid\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   Heading order invalid\",\u001b[39m\n\u001b[31m+         \"html\": \"<h3 class=\\\"text-xl font-semibold text-neutral-900 mb-2\\\">Visual Development in Action</h3>\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".text-center > h3\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 35\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure the order of headings is semantically correct\",\u001b[39m\n\u001b[31m+     \"help\": \"Heading levels should only increase by one\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.10/heading-order?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": null,\u001b[39m\n\u001b[31m+             \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"Heading order invalid\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   Heading order invalid\",\u001b[39m\n\u001b[31m+         \"html\": \"<h3 class=\\\"text-xl font-semibold text-neutral-900 mb-2\\\">Visual Development in Action</h3>\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".text-center > h3\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:169:31",
+                        "location": {
+                          "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                          "column": 31,
+                          "line": 169
+                        },
+                        "snippet": "  167 |     }\n  168 |\n> 169 |     expect(headingViolations).toEqual([]);\n      |                               ^\n  170 |   });\n  171 |\n  172 |   test('Skip Links', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                            "column": 31,
+                            "line": 169
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 35\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure the order of headings is semantically correct\",\u001b[39m\n\u001b[31m+     \"help\": \"Heading levels should only increase by one\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.10/heading-order?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": null,\u001b[39m\n\u001b[31m+             \"id\": \"heading-order\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"Heading order invalid\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   Heading order invalid\",\u001b[39m\n\u001b[31m+         \"html\": \"<h3 class=\\\"text-xl font-semibold text-neutral-900 mb-2\\\">Visual Development in Action</h3>\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".text-center > h3\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  167 |     }\n  168 |\n> 169 |     expect(headingViolations).toEqual([]);\n      |                               ^\n  170 |   });\n  171 |\n  172 |   test('Skip Links', async ({ page }) => {\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:169:31"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "HEADING STRUCTURE VIOLATIONS:\n"
+                        },
+                        {
+                          "text": "1. Ensure the order of headings is semantically correct\n"
+                        },
+                        {
+                          "text": "   Heading 1: .text-center > h3\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:07.395Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video-1.webm"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Heading-Structure-accessibility/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                        "column": 31,
+                        "line": 169
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-584b3d1ede63cbc11a23",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 150,
+              "column": 7
+            },
+            {
+              "title": "Skip Links",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1432,
+                      "error": {
+                        "message": "Error: locator.count: Unexpected token \"/\" while parsing css selector \"a[href^=\"#\"]:has-text(/skip/i)\". Did you mean to CSS.escape it?",
+                        "stack": "Error: locator.count: Unexpected token \"/\" while parsing css selector \"a[href^=\"#\"]:has-text(/skip/i)\". Did you mean to CSS.escape it?\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:175:43",
+                        "location": {
+                          "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                          "column": 43,
+                          "line": 175
+                        },
+                        "snippet": "  173 |     // Test for skip navigation links\n  174 |     const skipLinks = page.locator('a[href^=\"#\"]:has-text(/skip/i)');\n> 175 |     const skipLinkCount = await skipLinks.count();\n      |                                           ^\n  176 |\n  177 |     if (skipLinkCount > 0) {\n  178 |       console.log(`Found ${skipLinkCount} skip links`);"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                            "column": 43,
+                            "line": 175
+                          },
+                          "message": "Error: locator.count: Unexpected token \"/\" while parsing css selector \"a[href^=\"#\"]:has-text(/skip/i)\". Did you mean to CSS.escape it?\n\n  173 |     // Test for skip navigation links\n  174 |     const skipLinks = page.locator('a[href^=\"#\"]:has-text(/skip/i)');\n> 175 |     const skipLinkCount = await skipLinks.count();\n      |                                           ^\n  176 |\n  177 |     if (skipLinkCount > 0) {\n  178 |       console.log(`Found ${skipLinkCount} skip links`);\n    at /workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts:175:43"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:10.442Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/workspaces/DesignAgency/project/test-results/accessibility-audit-Accessibility-Audit-Skip-Links-accessibility/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/workspaces/DesignAgency/project/tests/accessibility/accessibility-audit.spec.ts",
+                        "column": 43,
+                        "line": 175
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-5fc18f40e0fc132eb9f2",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "ARIA Landmarks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "accessibility",
+                  "projectName": "accessibility",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1933,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-19T21:22:12.936Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "133fb274c06e7193ffc5-a1e1952b9fa4a4846984",
+              "file": "accessibility/accessibility-audit.spec.ts",
+              "line": 197,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-19T21:21:55.454Z",
+    "duration": 19644.612999999998,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}
