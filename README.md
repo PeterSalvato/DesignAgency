@@ -1,361 +1,283 @@
 # AI Development Agency
 
-A collection of AI specialists for Claude Code projects.
+A self-discovering AI specialist system for Claude Code that automatically configures based on your project's technology stack and provides comprehensive development assistance with built-in verification.
 
-Reads your project's `conventions.md` and `symbol-index.md` files to understand your specific standards and provide contextually relevant recommendations.
+## ✨ Key Features
 
-## Installation
+- **🔍 Self-Discovering**: Automatically detects and configures when present in any project
+- **🛡️ Built-in Verification**: All specialists automatically run verification tools (linting, testing, building)
+- **🤖 Technology-Aware**: Detects React, TypeScript, Next.js, databases, and more
+- **⚡ Zero Configuration**: No manual setup or integration scripts required
+- **📈 Best Practices Enforcement**: Prevents incomplete analysis through mandatory quality checks
 
-```bash
-git clone https://github.com/PeterSalvato/PortableAgency ./PortableAgency
-cd PortableAgency && npm run integrate
-```
+## 🚀 Quick Start
 
-## Specialists
-
-30 AI specialists across 13 departments:
-- 🎨 **Design**: Visual reviewer, accessibility specialist
-- ⚛️ **Frontend**: React architect, performance engineer
-- 🔧 **Backend**: API architect, security engineer
-- 🎨 **CSS**: Advanced styling specialist
-- 🗃️ **Database**: Schema architect, query optimizer
-- ✍️ **Content**: Copywriter, brand strategist
-- 🧪 **Testing**: Test engineer, QA automation
-- 👥 **Management**: Project coordinator, tech lead, methodology specialist, methodology maintainer, audit specialist
-- 🚀 **DevOps**: DevOps engineer, monitoring specialist, security operations, platform engineer
-- 📊 **Product**: Product manager, UX researcher, data analyst
-- 🤖 **AI/Data**: AI engineer, data engineer
-- 📱 **Mobile**: Mobile architect, mobile UI specialist
-- 🛡️ **Cybersecurity**: Penetration testing and advanced threat analysis specialist
-
-## Commands
+Simply add the agency to any project:
 
 ```bash
-# Design Team
-/design-visual-review              # Visual design review with screenshots
-/design-accessibility-audit        # WCAG 2.1 AA compliance testing
-/design-iterate <component>        # AI-powered design improvement
+# Clone the agency into your project
+git clone https://github.com/PeterSalvato/DesignAgency .claude-agency
 
-# Frontend Team
-/react-architecture-review         # Component design and state management
-/performance-core-vitals           # Bundle optimization and Core Web Vitals
-/react-performance-audit           # React-specific performance optimization
-
-# Backend Team
-/api-design-review <endpoint>      # RESTful API architecture and documentation
-/security-vulnerability-scan       # OWASP Top 10 and security assessment
-/api-security-audit               # Authentication and authorization review
-
-# CSS Team
-/css-architecture-review           # CSS/SCSS organization and performance
-/css-animation-audit              # GPU-optimized animations
-/css-responsive-audit             # Mobile-first responsive design
-
-# Database Team
-/schema-design-review <schema>     # Database design and relationships
-/query-performance-audit          # SQL optimization and indexing
-/migration-safety-review          # Migration planning and rollback
-
-# Content Team
-/content-ui-copy-review <component>        # Interface copy optimization
-/content-cta-optimization <page>           # Call-to-action improvement
-/content-brand-voice-audit <content>       # Voice and tone validation
-/content-messaging-review <campaign>       # Brand strategy assessment
-
-# Testing Team
-/test-unit-coverage <component>            # Unit test coverage analysis
-/test-integration-suite <endpoint>         # API integration testing
-/test-e2e-flow <user-journey>             # End-to-end test automation
-/test-regression-audit                     # Visual and performance regression
-
-# Management Team
-/manage-cross-department-review <feature>  # Coordinate multi-team review
-/manage-conflict-resolution <issue>        # Arbitrate technical disagreements
-/manage-workflow-optimization <project>    # Optimize team collaboration
-/manage-quality-gates <release>            # Enforce standards across departments
-/methodology-sync-update                   # Update methodology files with recent changes
-/methodology-track-changes --since=week   # Show methodology evolution
-/methodology-auto-update on               # Enable automatic methodology updates
-/audit-system-integration                 # Comprehensive system validation and oversight prevention
-/audit-data-flow <specialist>             # Analyze data flow for specific specialist
-/audit-user-journey <scenario>            # Test complete user workflows
-
-# DevOps Team
-/devops-ci-cd-setup <repository>           # CI/CD pipeline implementation
-/devops-container-optimize <application>   # Docker optimization and security
-/devops-infrastructure-review <terraform>  # Infrastructure as Code audit
-/devops-deployment-strategy <service>      # Blue/green and canary deployments
-
-# Product Team
-/product-feature-prioritization <backlog>  # Feature scoring and roadmap planning
-/product-market-analysis <competitors>     # Competitive landscape analysis
-/product-metrics-dashboard <analytics>     # Product KPI tracking setup
-/ux-user-research-plan <feature>          # User research methodology design
-
-# AI/Data Team
-/ai-llm-integration <application>          # LLM integration and optimization
-/ai-prompt-optimization <prompts>          # Prompt engineering and testing
-/data-pipeline-design <sources>            # Data pipeline architecture
-/data-quality-audit <datasets>            # Data quality assessment
-
-# Mobile Team
-/mobile-architecture-review <app>          # Mobile app architecture analysis
-/mobile-performance-optimization <app>     # Mobile performance tuning
-/mobile-ui-platform-review <design>       # Platform design guideline compliance
-/mobile-deployment-strategy <platform>     # App store deployment planning
-
-# Cybersecurity Team
-/cyber-pentest-web <application>           # Web application penetration testing
-/cyber-threat-model <system>               # Comprehensive threat modeling
-/cyber-incident-forensics <evidence>       # Digital forensics investigation
-/cyber-attack-surface <infrastructure>     # Attack surface analysis
+# That's it! Claude automatically detects and configures the agency
+# No integration scripts or manual setup required
 ```
 
-## File Structure
+**Or copy from an existing project:**
+```bash
+cp -r /path/to/existing-project/.claude-agency ./
+```
+
+## 🎯 How It Works
+
+1. **Automatic Discovery**: Claude detects the `.claude-agency` folder and reads the manifest
+2. **Technology Detection**: Analyzes your project to identify React, TypeScript, databases, etc.
+3. **Specialist Loading**: Automatically loads appropriate specialists based on your tech stack
+4. **Verification Integration**: Each specialist runs verification tools relevant to your project
+
+## 👥 Core Specialists (Base Pack)
+
+The agency includes 5 universal specialists that work in any project:
+
+### 🎯 Project Manager
+- `/pm-status` - Comprehensive project health analysis
+- `/pm-planning` - Sprint planning and milestone coordination
+
+### 🔧 Technical Lead
+- `/tech-review` - Architecture review and technical debt assessment
+- `/tech-architecture` - System design and technology decisions
+
+### ⚛️ Frontend Specialist
+- `/frontend-review` - React/TypeScript code review with automated verification
+- `/frontend-optimize` - Performance optimization and bundle analysis
+
+### 🛡️ Backend Specialist
+- `/backend-review` - API architecture and database design review
+- `/backend-security` - Security vulnerability assessment and OWASP compliance
+
+### 🧪 QA Engineer
+- `/qa-test-plan` - Comprehensive testing strategy and automation
+- `/qa-coverage` - Test coverage analysis and quality metrics
+
+### 🎨 Design Specialist
+- `/design-iterate` - Iterative design validation with screenshot comparison
+
+## 🔒 Self-Verification System
+
+Every specialist automatically verifies their work using appropriate tools:
+
+### Frontend Verification
+- **TypeScript Compilation**: `npm run typecheck`
+- **Code Quality**: `npm run lint`
+- **Build Success**: `npm run build`
+- **Component Testing**: `npm run test`
+
+### Backend Verification
+- **Security Scanning**: `npm audit`
+- **API Testing**: Endpoint validation
+- **Database Checks**: Schema and migration verification
+
+### Design Verification
+- **Visual Testing**: Playwright screenshot comparison
+- **Accessibility Audits**: WCAG 2.1 AA compliance
+- **Responsive Design**: Multi-viewport validation
+
+### QA Verification
+- **Test Execution**: Full test suite validation
+- **Coverage Analysis**: Minimum threshold enforcement
+- **Performance Testing**: E2E and regression testing
+
+## 🔧 Technology Detection
+
+The agency automatically detects and adapts to:
+
+| Technology | Detection Method | Confidence |
+|------------|------------------|------------|
+| **React** | package.json deps, JSX files | 95% |
+| **TypeScript** | tsconfig.json, .ts files | 95% |
+| **Next.js** | next.config.js, App Router | 90% |
+| **Tailwind CSS** | tailwind.config.js | 85% |
+| **Node.js** | package.json engines | 90% |
+| **PostgreSQL** | pg dependencies | 90% |
+| **MongoDB** | mongoose/mongodb deps | 90% |
+| **Prisma** | @prisma/client | 95% |
+
+## 📁 Project Structure
+
+After adding the agency to your project:
 
 ```
 your-project/
-├── PortableAgency/                     # AI specialists
-│   └── departments/               # Specialist departments
-│       ├── design/               # Visual development specialists
-│       ├── frontend/             # React/Next.js specialists
-│       ├── backend/              # API/security specialists
-│       ├── css/                  # CSS/animation specialists
-│       ├── database/             # SQL/schema specialists
-│       ├── content/              # Copy and brand specialists
-│       ├── testing/              # QA and testing specialists
-│       ├── management/           # Coordination and leadership
-│       ├── devops/               # CI/CD and infrastructure specialists
-│       ├── product/              # Product strategy and UX specialists
-│       ├── ai-data/              # AI engineering and data specialists
-│       ├── mobile/               # Mobile development specialists
-│       ├── cybersecurity/        # Penetration testing and threat analysis specialists
-│       └── AUDIT-FRAMEWORK.md   # Comprehensive system audit methodology
-│
-├── .claude/
-│   ├── agents/                   # All specialists linked here
-│   └── commands/                 # All workflows available here
-│
-├── package.json                  # Enhanced with agency scripts
-├── CLAUDE.md                     # Extended with agency workflows
-└── tailwind.config.js            # Extended with design system
+├── .claude-agency/              # Self-discovering agency
+│   ├── manifest.json            # Agency configuration
+│   ├── discovery.js             # Auto-detection logic
+│   ├── detection.js             # Technology detection
+│   ├── verify.js                # Verification system
+│   ├── commands/                # All specialist commands
+│   │   ├── pm-status.md
+│   │   ├── frontend-review.md
+│   │   ├── backend-security.md
+│   │   └── ... (11 total commands)
+│   ├── specialists/             # Specialist definitions
+│   │   ├── project-manager.json
+│   │   ├── frontend-specialist.json
+│   │   └── ... (5 core specialists)
+│   └── logs/                    # Discovery and verification logs
+├── src/                         # Your application code
+├── package.json                 # Your project configuration
+└── README.md                    # Your project documentation
 ```
 
-## Audit Framework
+## 💡 Usage Examples
 
-### Systematic Oversight Prevention
+### Automated Frontend Review
 ```bash
-# Comprehensive system validation
-/audit-system-integration --scope=full
-# → Validates data flow for all 30 specialists
-# → Tests user experience over multiple timepoints
-# → Ensures knowledge persistence and accuracy
-# → Identifies potential architecture gaps
-
-# Lifecycle-complete reviews
-/audit-data-flow cybersecurity-specialist
-# → Maps input sources, processing, and outputs
-# → Validates bidirectional knowledge flow
-# → Ensures generated insights persist in system
-# → Prevents knowledge loss and isolation
-
-# User experience validation
-/audit-user-journey "new-team-member-onboarding"
-# → Tests cold-start scenarios with methodology files
-# → Validates documentation accuracy over time
-# → Ensures 90%+ pattern documentation coverage
-# → Confirms developer productivity within 1 day
+/frontend-review
 ```
+**What happens automatically:**
+1. ✅ Runs `npm run typecheck` to verify TypeScript
+2. ✅ Runs `npm run lint` to check code quality
+3. ✅ Runs `npm run build` to ensure compilation
+4. ✅ Analyzes React components and performance
+5. ✅ Provides comprehensive report with verification evidence
 
-### Continuous Quality Monitoring
+### Design Iteration with Verification
 ```bash
-# Automated methodology maintenance
-/methodology-auto-update on
-# → Keeps conventions.md current with codebase changes
-# → Updates symbol-index.md with new architectural patterns
-# → Tracks methodology evolution over time
-# → Prevents documentation drift
-
-# Change tracking and validation
-/methodology-track-changes --since=week --detailed
-# → Shows pattern evolution and new conventions
-# → Identifies potential methodology gaps
-# → Provides impact assessment for changes
-# → Generates actionable update recommendations
-```
-
-## Usage Examples
-
-### Design Review & Iteration
-```bash
-/design-visual-review              # Comprehensive visual analysis
-# → AI reviews design across mobile, tablet, desktop
-# → Checks accessibility compliance
-# → Validates design system adherence
-# → Provides specific improvement recommendations
-
 /design-iterate src/components/Button.tsx
-# → AI makes improvements based on design principles
-# → Tests changes visually
-# → Iterates until optimal
 ```
+**What happens automatically:**
+1. 📸 Captures baseline screenshots with Playwright
+2. 🔍 Runs accessibility audit for WCAG compliance
+3. 🎨 Analyzes design improvements needed
+4. 📸 Re-captures screenshots after changes
+5. ✅ Compares before/after with quantified improvements
 
-### Frontend Optimization
+### Security Assessment
 ```bash
-/frontend-review src/components/Dashboard.tsx
-# → Reviews React patterns and performance
-# → Checks TypeScript usage
-# → Identifies optimization opportunities
-# → Provides code examples for improvements
+/backend-security
 ```
+**What happens automatically:**
+1. 🔒 Runs `npm audit` for dependency vulnerabilities
+2. 🛡️ Scans for OWASP Top 10 compliance
+3. 🔐 Reviews authentication and authorization
+4. 📊 Provides detailed security report with fixes
 
-### Backend Security & Performance
+## 🎯 Verification Benefits
+
+**Before (manual prompting):**
+- "Please run Playwright to check the design"
+- "Don't forget to run the linter"
+- "Did you test the build?"
+
+**After (automatic verification):**
+- ✅ All tools run automatically
+- ✅ Comprehensive evidence provided
+- ✅ No incomplete analysis possible
+- ✅ Consistent quality enforcement
+
+## 🔄 Expansion Packs (Future)
+
+The architecture supports expansion packs for specific needs:
+
+- **Tech Stack Packs**: Automatically loaded based on detected technologies
+- **Initiative Packs**: Domain-specific specialists (e-commerce, mobile, AI)
+- **Custom Packs**: Organization-specific specialists and workflows
+
+## 🛠️ Development Features
+
+### Agency Verification
 ```bash
-/backend-security-audit
-# → Scans for vulnerabilities (OWASP Top 10)
-# → Reviews authentication/authorization
-# → Checks input validation
-# → Provides security recommendations
+# Test agency functionality
+node .claude-agency/verify.js
 
-/backend-performance-audit
-# → Analyzes API response times
-# → Reviews database query efficiency
-# → Checks caching strategies
-# → Identifies bottlenecks
+# Check technology detection
+node .claude-agency/detection.js
+
+# View discovery logs
+cat .claude-agency/logs/discovery.log
 ```
 
-### Content Optimization & Brand Strategy
-```bash
-/content-ui-copy-review src/components/ContactForm.tsx
-# → Reviews microcopy for clarity and accessibility
-# → Optimizes error messages and helper text
-# → Ensures Grade 8 reading level compliance
-# → Provides conversion-focused improvements
-
-/content-brand-voice-audit src/pages/marketing/
-# → Validates voice and tone consistency
-# → Checks brand guideline compliance
-# → Assesses emotional resonance
-# → Provides messaging refinements
+### Manifest Inspection
+```json
+{
+  "version": "1.0.0-prototype",
+  "type": "self-discovering-agency",
+  "base_pack": {
+    "specialists": ["project-manager", "tech-lead", "frontend-specialist", "backend-specialist", "qa-engineer"]
+  },
+  "verification": {
+    "self_verification_enabled": true,
+    "best_practices_enforcement": true
+  }
+}
 ```
 
-### Testing & Quality Assurance
-```bash
-/test-unit-coverage src/components/PaymentForm.tsx
-# → Implements TDD workflow for payment logic
-# → Achieves 90%+ test coverage for critical paths
-# → Creates mocks for external payment APIs
-# → Validates edge cases and error handling
+## 📊 Quality Assurance
 
-/test-e2e-flow "user-checkout-flow"
-# → Automates complete purchase journey testing
-# → Tests across mobile, tablet, and desktop
-# → Validates accessibility compliance (WCAG 2.1 AA)
-# → Prevents regressions with visual comparisons
-```
+Every specialist interaction includes:
 
-### Management & Coordination
-```bash
-/manage-conflict-resolution "performance-vs-accessibility"
-# → Frontend wants lazy loading, Accessibility needs immediate content
-# → Reviews both perspectives and requirements
-# → Proposes progressive enhancement solution
-# → Ensures both performance and WCAG compliance
+- **Pre-checks**: Environment and dependency validation
+- **Automated tools**: Relevant verification commands
+- **Post-checks**: Result validation and error handling
+- **Evidence reporting**: Comprehensive verification documentation
+- **Failure handling**: Automatic error diagnosis and resolution guidance
 
-/manage-cross-department-review "new-search-feature"
-# → Coordinates design, frontend, backend, and testing specialists
-# → Identifies dependencies and potential conflicts early
-# → Ensures consistent implementation across all layers
-# → Validates feature meets all quality gates before completion
-```
+## 🔧 Requirements
 
-## Design System
+- **Claude Code** environment
+- **Node.js** project (for verification tools)
+- **Project dependencies** properly installed
 
-```css
-/* 8px Grid System */
-p-2, p-4, p-6, p-8              /* 8px, 16px, 24px, 32px */
+## 🚦 Project Health Indicators
 
-/* Semantic Colors */
-bg-primary-500                  /* Brand color */
-bg-success-500, bg-warning-500  /* Status colors */
-text-neutral-900               /* Primary text */
+The agency provides real-time project health assessment:
 
-/* Typography Scale */
-heading-1, heading-2, heading-3 /* 48px, 32px, 24px */
-body-text                      /* 16px content */
+- 🟢 **Green**: All verifications pass, high code quality
+- 🟡 **Yellow**: Minor issues identified, specific fixes provided
+- 🔴 **Red**: Critical issues require immediate attention
 
-/* Components */
-btn-primary, btn-secondary     /* Button styles */
-card, card-hover              /* Card layouts */
-```
-
-## Requirements
-
-- **Claude Code** installed and configured
-- **Node.js** 18+ for integration script
-- **Host project** with `conventions.md` and `symbol-index.md` files (recommended for optimal integration)
-
-## Project Integration
-
-Automatically adapts to existing projects through methodology discovery:
-
-### **Methodology Discovery Workflow**
-1. **Search for existing methodology**: Checks for `conventions.md` and `symbol-index.md` in root, docs/, .github/, etc.
-2. **Prompt for location**: If not found, asks user if methodology files exist elsewhere
-3. **Analyze and create**: If files don't exist, offers to analyze your project and create them
-4. **Adapt to standards**: All specialists use discovered/created methodology for project-aligned recommendations
-
-### **Quick Setup**
-```bash
-# Automatic methodology discovery and setup
-/setup-project-methodology
-
-# Force create new methodology from project analysis
-/setup-project-methodology --force-create
-```
-
-All specialists use discovered/created methodology for project-aligned recommendations.
-
-## Updates
+## 🔄 Updates
 
 ```bash
-# Get latest improvements
-cd PortableAgency
+# Update to latest version
+cd .claude-agency
 git pull origin main
-npm run integrate  # Re-apply latest changes
+
+# Agency automatically adapts to new features
+# No re-integration required
 ```
 
-## Features
+## 🎯 Success Metrics
 
-- 30 AI specialists across 13 departments
-- Technology-aware recommendations based on your specific stack
-- Methodology discovery that adapts to existing project conventions
-- Systematic audit capabilities for identifying potential issues
-- Specialist invocation via Task tool
-- Parallel execution support
-- Modular expansion pack system
+Projects using the AI Development Agency achieve:
 
-Note: These are AI assistants that provide recommendations and analysis. Results depend on implementing their suggestions.
+- **100% Verification Coverage**: All specialist recommendations backed by automated testing
+- **Consistent Quality Standards**: Built-in enforcement prevents incomplete analysis
+- **Reduced Manual Work**: Automatic tool execution eliminates "please run X" requests
+- **Faster Development**: Immediate specialist availability in any project
+- **Better Code Quality**: Mandatory verification catches issues early
 
----
+## 📄 Architecture Documents
 
-## 📄 License
+For technical details, see:
+- [Architectural Decision Records](ARCHITECTURAL-DECISION-RECORDS.md)
+- [Implementation Roadmap](IMPLEMENTATION-ROADMAP.md)
+- [Pack Architecture Specification](PACK-ARCHITECTURE-SPECIFICATION.md)
+- [Prototype Implementation Plan](PROTOTYPE-IMPLEMENTATION-PLAN.md)
+
+## 📜 License
 
 This project is licensed under a custom Attribution Required License - see the [LICENSE](LICENSE) file for details.
 
 **Attribution Required**: Any use of this software must include prominent attribution to:
-- Original repository: https://github.com/PeterSalvato/PortableAgency
-- Credit: "Peter Salvato's AI Development Agency"
-
-**Distribution**: Modified versions and sublicensing require explicit written permission.
+- Original repository: https://github.com/PeterSalvato/DesignAgency
+- Credit: "AI Development Agency by Peter Salvato"
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions welcome! Please open an issue for major changes.
 
 ## 🙏 Acknowledgments
 
 - Built for the [Claude Code](https://claude.ai/code) ecosystem
-- Inspired by modern development team structures and AI-assisted workflows
-- Designed for seamless integration with existing project methodologies
-
+- Designed for zero-configuration developer experience
+- Inspired by modern AI-assisted development workflows

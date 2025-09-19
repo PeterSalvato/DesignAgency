@@ -1,226 +1,235 @@
 # AI Development Agency - Claude Code Integration
 
-This configuration enables comprehensive AI development workflows through specialist departments.
+This configuration enables comprehensive AI development workflows through self-discovering specialist architecture with built-in verification.
 
-## Available Specialists
+## Self-Discovering Architecture
 
-### 🎨 Design Department
-- **Visual Reviewer**: Screenshot-based design validation across viewports
-- **Accessibility Expert**: WCAG 2.1 AA compliance testing and remediation
-- **Design System Enforcer**: Design token and pattern compliance validation
+The AI Development Agency automatically configures itself when Claude detects the `.claude-agency` folder in any project. No manual integration or setup required.
 
-### ⚛️ Frontend Department
-- **React Specialist**: Component architecture and performance optimization
-- **TypeScript Expert**: Type safety and advanced typing patterns
-- **Performance Engineer**: Bundle optimization and Core Web Vitals
+### Automatic Features
+- **🔍 Agency Discovery**: Automatically detects and configures agency presence
+- **🤖 Technology Detection**: Identifies React, TypeScript, Next.js, databases, and more
+- **⚡ Specialist Loading**: Loads appropriate specialists based on detected tech stack
+- **🛡️ Built-in Verification**: All specialists automatically run verification tools
 
-### 🔧 Backend Department
-- **API Architect**: RESTful design, security, and documentation
-- **Security Engineer**: Vulnerability assessment and penetration testing
-- **Database Optimizer**: Query performance and N+1 detection
+## Available Specialists (Base Pack)
 
-### 🎨 CSS Department
-- **SCSS Architect**: Advanced styling organization and performance
-- **Animation Engineer**: GPU-optimized animations and interactions
-- **Responsive Expert**: Mobile-first design and container queries
+### 🎯 Project Manager
+- **Role**: Project coordination and strategic oversight
+- **Commands**: `/pm-status`, `/pm-planning`
+- **Verification**: Git analysis, project health assessment, timeline validation
 
-### 🗃️ Database Department
-- **Schema Architect**: Normalized design and relationship optimization
-- **Query Optimizer**: SQL performance tuning and indexing
+### 🔧 Technical Lead
+- **Role**: Technical architecture and engineering leadership
+- **Commands**: `/tech-review`, `/tech-architecture`
+- **Verification**: Code quality analysis, architecture validation, technical debt assessment
 
-### ✍️ Content Department
-- **Copywriter**: User-centered copy and conversion optimization
-- **Brand Strategist**: Voice, messaging, and brand consistency
+### ⚛️ Frontend Specialist
+- **Role**: Frontend development and user experience optimization
+- **Commands**: `/frontend-review`, `/frontend-optimize`
+- **Verification**: TypeScript compilation, linting, build success, component testing
 
-### 🧪 Testing Department
-- **Test Engineer**: Unit testing, TDD, and test coverage
-- **QA Automation**: Integration testing and E2E validation
+### 🛡️ Backend Specialist
+- **Role**: Backend development and API architecture
+- **Commands**: `/backend-review`, `/backend-security`
+- **Verification**: Security scanning, API testing, database validation
 
-### 👥 Management Department
-- **Project Coordinator**: Cross-department coordination and conflict resolution
-- **Tech Lead**: Architecture decisions and code review orchestration
+### 🧪 QA Engineer
+- **Role**: Quality assurance and testing strategy
+- **Commands**: `/qa-test-plan`, `/qa-coverage`
+- **Verification**: Test execution, coverage analysis, automation validation
 
-### 🚀 DevOps Department
-- **DevOps Engineer**: CI/CD pipelines and deployment automation
-- **Monitoring Specialist**: Application monitoring and alerting systems
-- **Security Operations**: Infrastructure security and compliance
-- **Platform Engineer**: Developer experience and internal tooling
+### 🎨 Design Specialist
+- **Role**: Design validation and iterative improvement
+- **Commands**: `/design-iterate`
+- **Verification**: Screenshot comparison, accessibility audits, responsive testing
 
-### 📊 Product Department
-- **Product Manager**: Feature prioritization and roadmap planning
-- **UX Researcher**: User validation and usability testing
-- **Data Analyst**: Business intelligence and analytics
+## Core Commands with Self-Verification
 
-### 🤖 AI/Data Department
-- **AI Engineer**: LLM integration and AI workflow design
-- **Data Engineer**: Data pipelines and analytics infrastructure
-
-### 📱 Mobile Department
-- **Mobile Architect**: React Native and cross-platform development
-- **Mobile UI Specialist**: Platform-specific design and touch interactions
-
-## Workflow Commands
-
-### Design Workflows
+### Project Management
 ```bash
-/design-visual-review [--component=<path>] [--viewport=<size>]
-/design-iterate <component-path> [--max-iterations=<n>]
-/design-accessibility-audit [--wcag-level=AA]
-/design-screenshot-compare [--baseline=<path>]
+/pm-status [--detailed] [--focus=area]
+# Automatically runs: git analysis, project structure review, velocity assessment
+# Provides: Project health dashboard, development metrics, risk assessment
+
+/pm-planning [--sprint-length=weeks] [--milestone=target]
+# Automatically runs: backlog analysis, capacity planning, dependency mapping
+# Provides: Sprint recommendations, milestone roadmap, resource allocation
 ```
 
-### Frontend Workflows
+### Technical Leadership
 ```bash
-/frontend-review <component-path> [--focus=performance|typescript|architecture]
-/frontend-performance-audit [--bundle-analysis] [--lighthouse]
-/frontend-typescript-audit <file-path> [--strict-mode]
-/frontend-component-analyze <component-path> [--composition-analysis]
+/tech-review [--component=path] [--focus=architecture|performance|security]
+# Automatically runs: npm run lint, npm run typecheck, architecture analysis
+# Provides: Technical health assessment, code quality metrics, refactoring roadmap
+
+/tech-architecture [--new-feature=description] [--scale-concerns]
+# Automatically runs: current architecture analysis, scalability assessment
+# Provides: Architecture design, technology recommendations, implementation roadmap
 ```
 
-### Backend Workflows
+### Frontend Development
 ```bash
-/backend-api-review <endpoint-path> [--security] [--performance]
-/backend-security-audit [--owasp] [--penetration-test]
-/backend-performance-audit [--database] [--caching]
-/backend-integration-test <endpoint-path> [--load-test]
+/frontend-review [--component=path] [--focus=performance|accessibility|architecture]
+# Automatically runs: npm run typecheck, npm run lint, npm run build, npm run test
+# Provides: Component analysis, TypeScript validation, performance recommendations
+
+/frontend-optimize [--target=lighthouse-score] [--analyze-bundle]
+# Automatically runs: build analysis, bundle inspection, performance testing
+# Provides: Optimization strategies, bundle analysis, Core Web Vitals improvements
 ```
 
-### CSS Workflows
+### Backend Development
 ```bash
-/css-review <stylesheet-path> [--architecture] [--performance]
-/css-animation-audit <component-path> [--gpu-optimization]
-/css-responsive-audit [--mobile-first] [--container-queries]
-/css-optimize <stylesheet-path> [--critical-css]
+/backend-review [--endpoint=path] [--focus=security|performance|architecture]
+# Automatically runs: npm audit, API testing, schema validation
+# Provides: Architecture assessment, security analysis, performance recommendations
+
+/backend-security [--scan-type=auth|api|database] [--owasp-check]
+# Automatically runs: npm audit, OWASP scanning, authentication review
+# Provides: Vulnerability assessment, security recommendations, compliance report
 ```
 
-### Database Workflows
+### Quality Assurance
 ```bash
-/sql-schema-review <schema-path> [--normalization] [--relationships]
-/sql-query-optimize <query-file> [--execution-plan] [--indexing]
-/sql-migration-review <migration-path> [--safety-check] [--rollback]
-/sql-performance-audit [--slow-queries] [--connection-pool]
+/qa-test-plan [--feature=description] [--test-types=unit,integration,e2e]
+# Automatically runs: npm run test, coverage analysis, framework validation
+# Provides: Test strategy, automation recommendations, quality metrics
+
+/qa-coverage [--threshold=percentage] [--report-format=html|json]
+# Automatically runs: npm run test:coverage, gap analysis, trend evaluation
+# Provides: Coverage report, improvement roadmap, quality dashboard
 ```
 
-### Content Workflows
+### Design Validation
 ```bash
-/content-ui-copy-review <component-path> [--microcopy] [--accessibility]
-/content-cta-optimization <page-path> [--conversion-analysis] [--ab-test]
-/content-brand-voice-audit <content-path> [--tone-consistency]
-/content-messaging-review <campaign-path> [--value-proposition]
+/design-iterate <component-path> [--max-iterations=n] [--target-viewport=size]
+# Automatically runs: npx playwright test, accessibility audits, screenshot comparison
+# Provides: Visual validation, accessibility compliance, design improvements
 ```
 
-### Testing Workflows
-```bash
-/test-unit-coverage <component-path> [--tdd] [--coverage-threshold]
-/test-integration-suite <endpoint-path> [--database] [--api]
-/test-e2e-flow <user-journey> [--mobile] [--accessibility]
-/test-regression-audit [--visual] [--performance] [--smoke]
-```
+## Self-Verification System
 
-### Management Workflows
-```bash
-/manage-cross-department-review <feature> [--all-specialists] [--prioritize]
-/manage-conflict-resolution <issue> [--technical] [--design] [--performance]
-/manage-workflow-optimization <project> [--bottlenecks] [--dependencies]
-/manage-quality-gates <release> [--security] [--performance] [--accessibility]
-```
+Every specialist command includes mandatory verification steps:
 
-### DevOps Workflows
-```bash
-/devops-ci-cd-setup <repository> [--github-actions] [--docker] [--kubernetes]
-/devops-monitoring-setup <application> [--apm] [--alerting] [--dashboards]
-/devops-infrastructure-audit <terraform> [--security] [--cost-optimization]
-/devops-deployment-strategy <service> [--blue-green] [--canary] [--rollback]
-```
+### Pre-Execution Checks
+- **Environment Validation**: Verify project structure and dependencies
+- **Tool Availability**: Check for required verification tools
+- **Configuration Validation**: Ensure proper setup for specialist tasks
 
-### Product Workflows
-```bash
-/product-feature-prioritization <backlog> [--rice-scoring] [--user-impact]
-/product-market-analysis <competitors> [--positioning] [--differentiation]
-/ux-user-research-plan <feature> [--interviews] [--usability-testing]
-/analytics-implementation <platform> [--conversion-tracking] [--cohort-analysis]
-```
+### Automated Tool Execution
+- **TypeScript Compilation**: `npm run typecheck` for type safety
+- **Code Quality**: `npm run lint` for standards compliance
+- **Build Verification**: `npm run build` to ensure compilation success
+- **Test Execution**: `npm run test` for functionality validation
+- **Security Scanning**: `npm audit` for vulnerability detection
+- **Visual Testing**: `npx playwright test` for design validation
 
-### AI/Data Workflows
-```bash
-/ai-llm-integration <application> [--openai] [--anthropic] [--prompt-optimization]
-/ai-workflow-design <process> [--automation] [--multi-agent] [--rag]
-/data-pipeline-setup <sources> [--etl] [--real-time] [--quality-monitoring]
-/data-analytics-platform <warehouse> [--dashboards] [--self-service]
-```
+### Post-Execution Validation
+- **Result Analysis**: Verify all tools completed successfully
+- **Error Resolution**: Diagnose and provide fixes for any failures
+- **Evidence Collection**: Document verification results and metrics
+- **Quality Gates**: Ensure minimum standards are met before proceeding
 
-### Mobile Workflows
-```bash
-/mobile-architecture-review <app> [--react-native] [--performance] [--security]
-/mobile-ui-design-review <interface> [--ios-guidelines] [--material-design]
-/mobile-deployment-setup <platform> [--app-store] [--play-store] [--ci-cd]
-/mobile-testing-strategy <devices> [--compatibility] [--performance]
-```
+## Technology Detection
 
-## Development Standards
+The agency automatically detects and adapts to your project's technology stack:
 
-### Code Quality Requirements
-- **TypeScript Strict Mode**: 95%+ type coverage required
-- **Test Coverage**: 90%+ for critical business logic
-- **Accessibility**: WCAG 2.1 AA compliance mandatory
-- **Performance**: 90+ Lighthouse score required
-- **Security**: Zero critical vulnerabilities allowed
+| Technology | Detection Method | Confidence | Specialist Impact |
+|------------|------------------|------------|------------------|
+| **React** | package.json deps, JSX files | 95% | Enhanced component analysis |
+| **TypeScript** | tsconfig.json, .ts files | 95% | Type safety verification |
+| **Next.js** | next.config.js, App Router | 90% | Framework-specific optimizations |
+| **Tailwind CSS** | tailwind.config.js | 85% | Design system compliance |
+| **Node.js** | package.json engines | 90% | Backend optimization focus |
+| **PostgreSQL** | pg dependencies | 90% | Database-specific recommendations |
+| **MongoDB** | mongoose deps | 90% | NoSQL optimization strategies |
+| **Playwright** | playwright.config.js | 95% | Enhanced visual testing |
 
-### Design System Standards
-- **8px Grid System**: All spacing must be multiples of 8px
-- **Design Tokens**: Use semantic color and spacing variables
-- **Component Consistency**: Reuse patterns before creating new ones
-- **Responsive Design**: Mobile-first approach required
+## Quality Standards Enforcement
 
-### API Standards
-- **RESTful Design**: Resource-based URLs, proper HTTP methods
-- **Security**: JWT authentication, input validation, rate limiting
-- **Documentation**: OpenAPI/Swagger documentation required
-- **Error Handling**: Consistent error response format
+### Mandatory Verification Requirements
+- **Code Quality**: All code must pass linting and type checking
+- **Build Success**: Projects must compile without errors
+- **Test Coverage**: Minimum thresholds enforced for critical paths
+- **Security Compliance**: Zero critical vulnerabilities allowed
+- **Accessibility**: WCAG 2.1 AA compliance for user interfaces
+- **Performance**: Optimizations validated through automated testing
 
-### Database Standards
-- **Schema Design**: Proper normalization and relationships
-- **Query Performance**: <100ms response time for 95% of queries
-- **Migration Safety**: Rollback plans and testing required
-- **Connection Management**: Proper pooling and resource cleanup
+### Verification Reporting
+Every specialist provides:
+- **Verification Results**: Detailed evidence of automated tool execution
+- **Quality Metrics**: Quantified assessment of current state
+- **Issue Identification**: Specific problems found and their severity
+- **Resolution Guidance**: Step-by-step fixes for identified issues
+- **Improvement Roadmap**: Prioritized recommendations for enhancement
 
-## Integration Architecture
+## Architecture Benefits
 
-After integration, your project structure includes:
+### Automatic Integration
+- **Zero Configuration**: No manual setup or integration scripts required
+- **Immediate Availability**: Specialists ready upon agency detection
+- **Technology Awareness**: Automatically adapts to your project's stack
+- **Consistent Behavior**: Same experience across all projects
+
+### Built-in Quality Assurance
+- **Mandatory Verification**: Cannot skip quality checks
+- **Comprehensive Evidence**: All recommendations backed by tool execution
+- **Consistent Standards**: Same quality enforcement across all specialists
+- **Automatic Error Handling**: Built-in diagnosis and resolution guidance
+
+### Developer Experience
+- **No Manual Prompting**: Tools run automatically without reminders
+- **Real-time Validation**: Immediate feedback on code quality
+- **Actionable Insights**: Specific, implementable recommendations
+- **Progress Tracking**: Clear metrics and improvement measurement
+
+## Project Structure
+
+When the agency is active in your project:
 
 ```
 your-project/
-├── ai-agency/departments/
-│   ├── design/          # Visual development specialists
-│   ├── frontend/        # React/Next.js specialists
-│   ├── backend/         # API/security specialists
-│   ├── css/            # CSS/animation specialists
-│   ├── database/       # SQL/schema specialists
-│   ├── content/        # Copy and brand specialists
-│   ├── testing/        # QA and testing specialists
-│   ├── management/     # Coordination and leadership
-│   ├── devops/         # CI/CD and infrastructure specialists
-│   ├── product/        # Product strategy and UX specialists
-│   ├── ai-data/        # AI engineering and data specialists
-│   └── mobile/         # Mobile development specialists
-│
-├── .claude/
-│   ├── agents/         # All specialists available
-│   └── commands/       # All workflows available
-│
-└── shared/
-    ├── config/         # Shared configurations (Tailwind, Playwright)
-    └── utils/          # Cross-department utilities
+├── .claude-agency/              # Self-discovering agency
+│   ├── manifest.json            # Agency configuration and status
+│   ├── discovery.js             # Automatic detection logic
+│   ├── detection.js             # Technology detection engine
+│   ├── self-verification.js     # Verification system
+│   ├── verify.js                # Agency validation tools
+│   ├── commands/                # All specialist commands (11 total)
+│   ├── specialists/             # Specialist definitions (5 core)
+│   └── logs/                    # Discovery and verification logs
+├── src/                         # Your application code
+├── package.json                 # Your project configuration
+└── README.md                    # Your project documentation
 ```
 
-## Success Metrics
+## Expansion Architecture
 
-Projects using the AI Development Agency achieve:
-- **95%+ Accessibility Score** through automated WCAG testing
-- **90+ Lighthouse Performance** through frontend optimization
-- **<200ms API Response Times** through backend optimization
-- **Zero Critical Vulnerabilities** through security scanning
-- **Design System Compliance** through automated validation
-- **90%+ Test Coverage** through comprehensive testing strategies
+The system supports future expansion through:
 
-This agency provides world-class development expertise across all aspects of modern web application development while maintaining consistency and quality standards.
+### Tech Stack Packs
+- **Dynamic Loading**: Automatically loaded based on detected technologies
+- **Framework-Specific**: Specialized knowledge for React, Vue, Angular, etc.
+- **Database-Optimized**: Tailored for PostgreSQL, MongoDB, Redis, etc.
+
+### Initiative Packs
+- **Domain-Specific**: E-commerce, mobile, AI integration, etc.
+- **User-Selectable**: Choose additional specialists for specific projects
+- **Custom Packs**: Organization-specific workflows and standards
+
+### Verification Evolution
+- **Tool Integration**: Support for new verification tools and frameworks
+- **Custom Standards**: Organization-specific quality requirements
+- **Progressive Enhancement**: Gradual improvement of verification capabilities
+
+## Usage in Claude Code
+
+The agency works seamlessly with Claude Code workflows:
+
+1. **Automatic Discovery**: Claude detects the `.claude-agency` folder
+2. **Specialist Availability**: All commands immediately available
+3. **Verification Integration**: Tools run automatically during specialist execution
+4. **Quality Enforcement**: Consistent standards across all interactions
+
+This provides world-class development expertise with built-in quality assurance, eliminating the need for manual tool execution reminders while ensuring comprehensive verification of all recommendations.

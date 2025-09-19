@@ -1,12 +1,12 @@
 {
   "name": "ai-development-agency",
-  "version": "1.0.0",
-  "description": "Complete AI development team for Claude Code projects",
-  "main": "integrate.js",
+  "version": "2.0.0",
+  "description": "Self-discovering AI specialist system for Claude Code with built-in verification",
+  "main": ".claude-agency/manifest.json",
   "scripts": {
-    "integrate": "node integrate.js",
     "demo": "cd project && npm install && npm run dev",
-    "test": "cd project && npm run test"
+    "test": "cd project && npm run test",
+    "verify": "node .claude-agency/verify.js"
   },
   "keywords": [
     "ai",
