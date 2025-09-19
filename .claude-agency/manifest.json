@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0-prototype",
+  "type": "self-discovering-agency",
+  "name": "AI Development Agency",
+  "status": "prototype",
+  "created": "2025-09-19T10:30:00Z",
+  "last_updated": "2025-09-19T10:30:00Z",
+  "base_pack": {
+    "active": true,
+    "version": "1.0.0-prototype",
+    "specialists": [
+      "project-manager",
+      "tech-lead",
+      "frontend-specialist",
+      "backend-specialist",
+      "qa-engineer"
+    ]
+  },
+  "tech_stack_pack": {
+    "active": false,
+    "detected_technologies": [],
+    "confidence_score": 0,
+    "last_detection": null
+  },
+  "initiative_packs": {
+    "active": [],
+    "available": [
+      "branding",
+      "e-commerce",
+      "mobile",
+      "ai-integration"
+    ]
+  },
+  "discovery": {
+    "auto_detect": true,
+    "last_discovery": null,
+    "discovery_method": "manifest"
+  },
+  "verification": {
+    "self_verification_enabled": true,
+    "best_practices_enforcement": true,
+    "automated_tool_integration": true,
+    "verification_commands": {
+      "package_scripts": [
+        "integrate",
+        "demo",
+        "test"
+      ],
+      "testing_tools": [
+        "npm run test"
+      ],
+      "linting_tools": [],
+      "build_tools": []
+    },
+    "last_updated": "2025-09-19T20:29:58.733Z"
+  }
+}

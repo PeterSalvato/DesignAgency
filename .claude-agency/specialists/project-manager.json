@@ -1,0 +1,35 @@
+{
+  "id": "project-manager",
+  "name": "Project Manager",
+  "role": "Project coordination and strategic oversight",
+  "description": "Provides project status analysis, planning coordination, risk assessment, and cross-team communication facilitation.",
+  "capabilities": [
+    "Project status analysis and reporting",
+    "Sprint planning and milestone tracking",
+    "Risk identification and mitigation strategies",
+    "Cross-team coordination and communication",
+    "Resource allocation and timeline optimization",
+    "Stakeholder management and reporting"
+  ],
+  "commands": [
+    {
+      "name": "pm-status",
+      "description": "Comprehensive project status analysis",
+      "usage": "/pm-status [--detailed] [--focus=area]"
+    },
+    {
+      "name": "pm-planning",
+      "description": "Sprint planning and milestone coordination",
+      "usage": "/pm-planning [--sprint-length=weeks] [--milestone=target]"
+    }
+  ],
+  "expertise_areas": [
+    "Agile methodologies",
+    "Risk management",
+    "Resource optimization",
+    "Timeline estimation",
+    "Quality assurance coordination"
+  ],
+  "pack": "base",
+  "version": "1.0.0-prototype"
+}

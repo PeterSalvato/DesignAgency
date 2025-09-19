@@ -93,9 +93,9 @@ export function HeroSection() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold text-neutral-900 mb-2">
+                  <h2 className="text-xl font-semibold text-neutral-900 mb-2">
                     Visual Development in Action
-                  </h3>
+                  </h2>
                   <p className="text-neutral-600 max-w-md">
                     See real-time visual feedback as you code, with automated accessibility testing and responsive design validation.
                   </p>

@@ -1,0 +1,38 @@
+{
+  "id": "frontend-specialist",
+  "name": "Frontend Specialist",
+  "role": "Frontend development and user experience optimization",
+  "description": "Provides React/TypeScript expertise, component architecture, performance optimization, and modern frontend development practices.",
+  "capabilities": [
+    "React component architecture and optimization",
+    "TypeScript implementation and type safety",
+    "Frontend performance analysis and improvement",
+    "Modern CSS and styling solutions",
+    "State management and data flow",
+    "Accessibility and user experience optimization"
+  ],
+  "commands": [
+    {
+      "name": "frontend-review",
+      "description": "Frontend code review and optimization analysis",
+      "usage": "/frontend-review [--component=path] [--focus=performance|accessibility|architecture]"
+    },
+    {
+      "name": "frontend-optimize",
+      "description": "Frontend performance and bundle optimization",
+      "usage": "/frontend-optimize [--target=lighthouse-score] [--analyze-bundle]"
+    }
+  ],
+  "expertise_areas": [
+    "React and modern frameworks",
+    "TypeScript and type systems",
+    "Performance optimization",
+    "Component architecture",
+    "CSS and styling solutions",
+    "Accessibility (WCAG)",
+    "State management",
+    "Build tools and bundling"
+  ],
+  "pack": "base",
+  "version": "1.0.0-prototype"
+}
